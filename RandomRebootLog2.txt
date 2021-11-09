@@ -1,0 +1,1343 @@
+Nov  6 18:52:35 nick kernel: [12650.373180] wlp3s0: RX AssocResp from dc:d9:ae:57:ba:bd (capab=0x1011 status=0 aid=3)
+Nov  6 18:52:35 nick kernel: [12650.484279] wlp3s0: associated
+Nov  6 18:52:35 nick kernel: [12650.540187] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+Nov  6 18:52:35 nick kernel: [12650.601939] wlp3s0: Limiting TX power to 30 (30 - 0) dBm as advertised by dc:d9:ae:57:ba:bd
+Nov  6 18:52:39 nick kernel: [12654.405098] usb 5-3: reset full-speed USB device number 2 using xhci_hcd
+Nov  6 19:12:01 nick kernel: [13807.035358] input: PXC 550 (AVRCP) as /devices/virtual/input/input20
+Nov  6 19:19:59 nick kernel: [14281.872584] audit: type=1400 audit(1636226399.933:61): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/usr/share/libdrm/amdgpu.ids" pid=17867 comm="soffice.bin" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Nov  6 19:20:07 nick kernel: [14288.930458] audit: type=1400 audit(1636226407.130:62): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/usr/share/zoneinfo-icu/44/le/zoneinfo64.res" pid=17866 comm="soffice.bin" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Nov  6 19:20:07 nick kernel: [14288.930565] audit: type=1400 audit(1636226407.130:63): apparmor="ALLOWED" operation="open" profile="libreoffice-soffice" name="/usr/share/zoneinfo-icu/44/le/timezoneTypes.res" pid=17866 comm="soffice.bin" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+Nov  6 19:25:21 nick kernel: [14600.696958] perf: interrupt took too long (2539 > 2500), lowering kernel.perf_event_max_sample_rate to 78750
+Nov  6 19:44:12 nick kernel: [15723.441534] perf: interrupt took too long (3270 > 3173), lowering kernel.perf_event_max_sample_rate to 61000
+Nov  6 20:29:32 nick kernel: [    0.000000] Linux version 5.13.0-20-generic (buildd@lgw01-amd64-013) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #20-Ubuntu SMP Fri Oct 15 14:21:35 UTC 2021 (Ubuntu 5.13.0-20.20-generic 5.13.14)
+Nov  6 20:29:32 nick kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.13.0-20-generic root=UUID=dabed761-e7d6-40b0-b1ec-77d864312752 ro quiet splash vt.handoff=7
+Nov  6 20:29:32 nick kernel: [    0.000000] KERNEL supported cpus:
+Nov  6 20:29:32 nick kernel: [    0.000000]   Intel GenuineIntel
+Nov  6 20:29:32 nick kernel: [    0.000000]   AMD AuthenticAMD
+Nov  6 20:29:32 nick kernel: [    0.000000]   Hygon HygonGenuine
+Nov  6 20:29:32 nick kernel: [    0.000000]   Centaur CentaurHauls
+Nov  6 20:29:32 nick kernel: [    0.000000]   zhaoxin   Shanghai  
+Nov  6 20:29:32 nick kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Nov  6 20:29:32 nick kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Nov  6 20:29:32 nick kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Nov  6 20:29:32 nick kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+Nov  6 20:29:32 nick kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Nov  6 20:29:32 nick kernel: [    0.000000] x86/fpu: xstate_offset[9]:  832, xstate_sizes[9]:    8
+Nov  6 20:29:32 nick kernel: [    0.000000] x86/fpu: Enabled xstate features 0x207, context size is 840 bytes, using 'compacted' format.
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-provided physical RAM map:
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x000000000009f000-0x000000000009ffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000009bfffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x0000000009c00000-0x0000000009da0fff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x0000000009da1000-0x0000000009efffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x0000000009f00000-0x0000000009f0cfff] ACPI NVS
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x0000000009f0d000-0x00000000c4d7dfff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000c4d7e000-0x00000000caf7dfff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000caf7e000-0x00000000cbf7dfff] ACPI NVS
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000cbf7e000-0x00000000cbffdfff] ACPI data
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000cbffe000-0x00000000cdffffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000ce000000-0x00000000cfffffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000fdc00000-0x00000000fdcfffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed80000-0x00000000fed80fff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x00000003ee2fffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] BIOS-e820: [mem 0x00000003ee300000-0x000000042fffffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] NX (Execute Disable) protection: active
+Nov  6 20:29:32 nick kernel: [    0.000000] e820: update [mem 0x99942018-0x9994f857] usable ==> usable
+Nov  6 20:29:32 nick kernel: [    0.000000] e820: update [mem 0x99942018-0x9994f857] usable ==> usable
+Nov  6 20:29:32 nick kernel: [    0.000000] extended physical RAM map:
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x0000000000000000-0x000000000009efff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x000000000009f000-0x000000000009ffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x0000000000100000-0x0000000009bfffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x0000000009c00000-0x0000000009da0fff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x0000000009da1000-0x0000000009efffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x0000000009f00000-0x0000000009f0cfff] ACPI NVS
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x0000000009f0d000-0x0000000099942017] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x0000000099942018-0x000000009994f857] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x000000009994f858-0x00000000c4d7dfff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000c4d7e000-0x00000000caf7dfff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000caf7e000-0x00000000cbf7dfff] ACPI NVS
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000cbf7e000-0x00000000cbffdfff] ACPI data
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000cbffe000-0x00000000cdffffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000ce000000-0x00000000cfffffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000fdc00000-0x00000000fdcfffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000000fed80000-0x00000000fed80fff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x0000000100000000-0x00000003ee2fffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000000] reserve setup_data: [mem 0x00000003ee300000-0x000000042fffffff] reserved
+Nov  6 20:29:32 nick kernel: [    0.000000] efi: EFI v2.70 by Lenovo
+Nov  6 20:29:32 nick kernel: [    0.000000] efi: ACPI=0xcbffd000 ACPI 2.0=0xcbffd014 SMBIOS=0xc7e65000 SMBIOS 3.0=0xc7e58000 TPMFinalLog=0xcbe1d000 MEMATTR=0xc12ca018 ESRT=0xc1cb2618 MOKvar=0xc12cd000 RNG=0xc7f7cf98 TPMEventLog=0x99950018 
+Nov  6 20:29:32 nick kernel: [    0.000000] efi: seeding entropy pool
+Nov  6 20:29:32 nick kernel: [    0.000000] random: fast init done
+Nov  6 20:29:32 nick kernel: [    0.000000] secureboot: Secure boot disabled
+Nov  6 20:29:32 nick kernel: [    0.000000] SMBIOS 3.3.0 present.
+Nov  6 20:29:32 nick kernel: [    0.000000] DMI: LENOVO 20XK0019US/20XK0019US, BIOS R1MET42W (1.12 ) 09/29/2021
+Nov  6 20:29:32 nick kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Nov  6 20:29:32 nick kernel: [    0.000000] tsc: Detected 1896.285 MHz processor
+Nov  6 20:29:32 nick kernel: [    0.000006] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  6 20:29:32 nick kernel: [    0.000007] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  6 20:29:32 nick kernel: [    0.000011] last_pfn = 0x3ee300 max_arch_pfn = 0x400000000
+Nov  6 20:29:32 nick kernel: [    0.001298] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Nov  6 20:29:32 nick kernel: [    0.001569] last_pfn = 0xce000 max_arch_pfn = 0x400000000
+Nov  6 20:29:32 nick kernel: [    0.004290] esrt: Reserving ESRT space from 0x00000000c1cb2618 to 0x00000000c1cb2718.
+Nov  6 20:29:32 nick kernel: [    0.004295] e820: update [mem 0xc1cb2000-0xc1cb2fff] usable ==> reserved
+Nov  6 20:29:32 nick kernel: [    0.004303] e820: update [mem 0xc12cd000-0xc12cdfff] usable ==> reserved
+Nov  6 20:29:32 nick kernel: [    0.004315] Using GB pages for direct mapping
+Nov  6 20:29:32 nick kernel: [    0.004714] secureboot: Secure boot disabled
+Nov  6 20:29:32 nick kernel: [    0.004714] RAMDISK: [mem 0x3d70a000-0x3fffdfff]
+Nov  6 20:29:32 nick kernel: [    0.004719] ACPI: Early table checksum verification disabled
+Nov  6 20:29:32 nick kernel: [    0.004722] ACPI: RSDP 0x00000000CBFFD014 000024 (v02 LENOVO)
+Nov  6 20:29:32 nick kernel: [    0.004725] ACPI: XSDT 0x00000000CBFFB188 000114 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004729] ACPI: FACP 0x00000000C5B93000 000114 (v06 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004732] ACPI: DSDT 0x00000000C5B7C000 011783 (v01 LENOVO TP-R1M   000010C0 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004734] ACPI: FACS 0x00000000CBE19000 000040
+Nov  6 20:29:32 nick kernel: [    0.004736] ACPI: SSDT 0x00000000C7E9C000 0000A2 (v01 LENOVO PID0Ssdt 00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004737] ACPI: SSDT 0x00000000C7E9A000 001189 (v01 LENOVO UsbCTabl 00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004739] ACPI: SSDT 0x00000000C7E8C000 007229 (v02 LENOVO TP-R1M   00000002 MSFT 04000000)
+Nov  6 20:29:32 nick kernel: [    0.004741] ACPI: IVRS 0x00000000C7E6A000 0001A4 (v02 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004742] ACPI: SSDT 0x00000000C7E38000 000A42 (v01 LENOVO WmiTable 00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004744] ACPI: SSDT 0x00000000C7DB3000 000632 (v02 LENOVO Tpm2Tabl 00001000 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004745] ACPI: TPM2 0x00000000C7DB2000 000034 (v03 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004747] ACPI: MSDM 0x00000000C7DAF000 000055 (v03 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004749] ACPI: BATB 0x00000000C7D9A000 00004A (v02 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004750] ACPI: HPET 0x00000000C5B92000 000038 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004752] ACPI: APIC 0x00000000C5B91000 000138 (v02 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004753] ACPI: MCFG 0x00000000C5B90000 00003C (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004755] ACPI: SBST 0x00000000C5B8F000 000030 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004756] ACPI: WSMT 0x00000000C5B8E000 000028 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004758] ACPI: VFCT 0x00000000C5B6E000 00D884 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004759] ACPI: SSDT 0x00000000C5B68000 005354 (v02 LENOVO TP-R1M   00000001 AMD  00000001)
+Nov  6 20:29:32 nick kernel: [    0.004761] ACPI: CRAT 0x00000000C5B67000 000EC0 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004763] ACPI: CDIT 0x00000000C5B66000 000029 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004764] ACPI: SDEV 0x00000000C5B65000 00014E (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004766] ACPI: FPDT 0x00000000C7D9B000 000034 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004767] ACPI: SSDT 0x00000000C5B64000 000149 (v01 LENOVO TP-R1M   00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004769] ACPI: SSDT 0x00000000C5B62000 0014C3 (v01 LENOVO TP-R1M   00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004770] ACPI: SSDT 0x00000000C5B60000 0015A8 (v01 LENOVO TP-R1M   00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004772] ACPI: SSDT 0x00000000C5B5C000 003979 (v01 LENOVO TP-R1M   00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004774] ACPI: BGRT 0x00000000C5B5B000 000038 (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004775] ACPI: UEFI 0x00000000CBE18000 0000DA (v01 LENOVO TP-R1M   000010C0 PTEC 00000002)
+Nov  6 20:29:32 nick kernel: [    0.004777] ACPI: SSDT 0x00000000C5B5A000 000052 (v01 LENOVO DRTM     00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004778] ACPI: SSDT 0x00000000C7E98000 000090 (v01 LENOVO TP-R1M   00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004780] ACPI: SSDT 0x00000000C7E97000 0009BD (v01 LENOVO TP-R1M   00000001 INTL 20180313)
+Nov  6 20:29:32 nick kernel: [    0.004781] ACPI: Reserving FACP table memory at [mem 0xc5b93000-0xc5b93113]
+Nov  6 20:29:32 nick kernel: [    0.004783] ACPI: Reserving DSDT table memory at [mem 0xc5b7c000-0xc5b8d782]
+Nov  6 20:29:32 nick kernel: [    0.004783] ACPI: Reserving FACS table memory at [mem 0xcbe19000-0xcbe1903f]
+Nov  6 20:29:32 nick kernel: [    0.004784] ACPI: Reserving SSDT table memory at [mem 0xc7e9c000-0xc7e9c0a1]
+Nov  6 20:29:32 nick kernel: [    0.004784] ACPI: Reserving SSDT table memory at [mem 0xc7e9a000-0xc7e9b188]
+Nov  6 20:29:32 nick kernel: [    0.004785] ACPI: Reserving SSDT table memory at [mem 0xc7e8c000-0xc7e93228]
+Nov  6 20:29:32 nick kernel: [    0.004785] ACPI: Reserving IVRS table memory at [mem 0xc7e6a000-0xc7e6a1a3]
+Nov  6 20:29:32 nick kernel: [    0.004786] ACPI: Reserving SSDT table memory at [mem 0xc7e38000-0xc7e38a41]
+Nov  6 20:29:32 nick kernel: [    0.004786] ACPI: Reserving SSDT table memory at [mem 0xc7db3000-0xc7db3631]
+Nov  6 20:29:32 nick kernel: [    0.004787] ACPI: Reserving TPM2 table memory at [mem 0xc7db2000-0xc7db2033]
+Nov  6 20:29:32 nick kernel: [    0.004787] ACPI: Reserving MSDM table memory at [mem 0xc7daf000-0xc7daf054]
+Nov  6 20:29:32 nick kernel: [    0.004788] ACPI: Reserving BATB table memory at [mem 0xc7d9a000-0xc7d9a049]
+Nov  6 20:29:32 nick kernel: [    0.004788] ACPI: Reserving HPET table memory at [mem 0xc5b92000-0xc5b92037]
+Nov  6 20:29:32 nick kernel: [    0.004789] ACPI: Reserving APIC table memory at [mem 0xc5b91000-0xc5b91137]
+Nov  6 20:29:32 nick kernel: [    0.004789] ACPI: Reserving MCFG table memory at [mem 0xc5b90000-0xc5b9003b]
+Nov  6 20:29:32 nick kernel: [    0.004790] ACPI: Reserving SBST table memory at [mem 0xc5b8f000-0xc5b8f02f]
+Nov  6 20:29:32 nick kernel: [    0.004790] ACPI: Reserving WSMT table memory at [mem 0xc5b8e000-0xc5b8e027]
+Nov  6 20:29:32 nick kernel: [    0.004791] ACPI: Reserving VFCT table memory at [mem 0xc5b6e000-0xc5b7b883]
+Nov  6 20:29:32 nick kernel: [    0.004791] ACPI: Reserving SSDT table memory at [mem 0xc5b68000-0xc5b6d353]
+Nov  6 20:29:32 nick kernel: [    0.004792] ACPI: Reserving CRAT table memory at [mem 0xc5b67000-0xc5b67ebf]
+Nov  6 20:29:32 nick kernel: [    0.004793] ACPI: Reserving CDIT table memory at [mem 0xc5b66000-0xc5b66028]
+Nov  6 20:29:32 nick kernel: [    0.004793] ACPI: Reserving SDEV table memory at [mem 0xc5b65000-0xc5b6514d]
+Nov  6 20:29:32 nick kernel: [    0.004794] ACPI: Reserving FPDT table memory at [mem 0xc7d9b000-0xc7d9b033]
+Nov  6 20:29:32 nick kernel: [    0.004794] ACPI: Reserving SSDT table memory at [mem 0xc5b64000-0xc5b64148]
+Nov  6 20:29:32 nick kernel: [    0.004795] ACPI: Reserving SSDT table memory at [mem 0xc5b62000-0xc5b634c2]
+Nov  6 20:29:32 nick kernel: [    0.004795] ACPI: Reserving SSDT table memory at [mem 0xc5b60000-0xc5b615a7]
+Nov  6 20:29:32 nick kernel: [    0.004796] ACPI: Reserving SSDT table memory at [mem 0xc5b5c000-0xc5b5f978]
+Nov  6 20:29:32 nick kernel: [    0.004796] ACPI: Reserving BGRT table memory at [mem 0xc5b5b000-0xc5b5b037]
+Nov  6 20:29:32 nick kernel: [    0.004797] ACPI: Reserving UEFI table memory at [mem 0xcbe18000-0xcbe180d9]
+Nov  6 20:29:32 nick kernel: [    0.004798] ACPI: Reserving SSDT table memory at [mem 0xc5b5a000-0xc5b5a051]
+Nov  6 20:29:32 nick kernel: [    0.004798] ACPI: Reserving SSDT table memory at [mem 0xc7e98000-0xc7e9808f]
+Nov  6 20:29:32 nick kernel: [    0.004799] ACPI: Reserving SSDT table memory at [mem 0xc7e97000-0xc7e979bc]
+Nov  6 20:29:32 nick kernel: [    0.004810] ACPI: Local APIC address 0xfee00000
+Nov  6 20:29:32 nick kernel: [    0.004858] No NUMA configuration found
+Nov  6 20:29:32 nick kernel: [    0.004859] Faking a node at [mem 0x0000000000000000-0x00000003ee2fffff]
+Nov  6 20:29:32 nick kernel: [    0.004863] NODE_DATA(0) allocated [mem 0x3ee2d6000-0x3ee2fffff]
+Nov  6 20:29:32 nick kernel: [    0.005037] Zone ranges:
+Nov  6 20:29:32 nick kernel: [    0.005038]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Nov  6 20:29:32 nick kernel: [    0.005039]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Nov  6 20:29:32 nick kernel: [    0.005040]   Normal   [mem 0x0000000100000000-0x00000003ee2fffff]
+Nov  6 20:29:32 nick kernel: [    0.005041]   Device   empty
+Nov  6 20:29:32 nick kernel: [    0.005041] Movable zone start for each node
+Nov  6 20:29:32 nick kernel: [    0.005042] Early memory node ranges
+Nov  6 20:29:32 nick kernel: [    0.005043]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Nov  6 20:29:32 nick kernel: [    0.005044]   node   0: [mem 0x0000000000100000-0x0000000009bfffff]
+Nov  6 20:29:32 nick kernel: [    0.005044]   node   0: [mem 0x0000000009da1000-0x0000000009efffff]
+Nov  6 20:29:32 nick kernel: [    0.005045]   node   0: [mem 0x0000000009f0d000-0x00000000c4d7dfff]
+Nov  6 20:29:32 nick kernel: [    0.005045]   node   0: [mem 0x00000000cbffe000-0x00000000cdffffff]
+Nov  6 20:29:32 nick kernel: [    0.005046]   node   0: [mem 0x0000000100000000-0x00000003ee2fffff]
+Nov  6 20:29:32 nick kernel: [    0.005047] Initmem setup node 0 [mem 0x0000000000001000-0x00000003ee2fffff]
+Nov  6 20:29:32 nick kernel: [    0.005048] On node 0 totalpages: 3886704
+Nov  6 20:29:32 nick kernel: [    0.005049]   DMA zone: 64 pages used for memmap
+Nov  6 20:29:32 nick kernel: [    0.005050]   DMA zone: 158 pages reserved
+Nov  6 20:29:32 nick kernel: [    0.005050]   DMA zone: 3998 pages, LIFO batch:0
+Nov  6 20:29:32 nick kernel: [    0.005051]   DMA32 zone: 12656 pages used for memmap
+Nov  6 20:29:32 nick kernel: [    0.005051]   DMA32 zone: 809938 pages, LIFO batch:63
+Nov  6 20:29:32 nick kernel: [    0.005052]   Normal zone: 48012 pages used for memmap
+Nov  6 20:29:32 nick kernel: [    0.005052]   Normal zone: 3072768 pages, LIFO batch:63
+Nov  6 20:29:32 nick kernel: [    0.005054] On node 0, zone DMA: 1 pages in unavailable ranges
+Nov  6 20:29:32 nick kernel: [    0.005069] On node 0, zone DMA: 97 pages in unavailable ranges
+Nov  6 20:29:32 nick kernel: [    0.005205] On node 0, zone DMA32: 417 pages in unavailable ranges
+Nov  6 20:29:32 nick kernel: [    0.010635] On node 0, zone DMA32: 13 pages in unavailable ranges
+Nov  6 20:29:32 nick kernel: [    0.010940] On node 0, zone DMA32: 29312 pages in unavailable ranges
+Nov  6 20:29:32 nick kernel: [    0.032668] On node 0, zone Normal: 8192 pages in unavailable ranges
+Nov  6 20:29:32 nick kernel: [    0.032732] On node 0, zone Normal: 7424 pages in unavailable ranges
+Nov  6 20:29:32 nick kernel: [    0.036220] ACPI: PM-Timer IO Port: 0x408
+Nov  6 20:29:32 nick kernel: [    0.036222] ACPI: Local APIC address 0xfee00000
+Nov  6 20:29:32 nick kernel: [    0.036230] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036231] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036232] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036232] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036233] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036233] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036233] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036234] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036234] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036235] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036235] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036235] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036236] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036236] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036237] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036237] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+Nov  6 20:29:32 nick kernel: [    0.036250] IOAPIC[0]: apic_id 32, version 33, address 0xfec00000, GSI 0-23
+Nov  6 20:29:32 nick kernel: [    0.036255] IOAPIC[1]: apic_id 33, version 33, address 0xfec01000, GSI 24-55
+Nov  6 20:29:32 nick kernel: [    0.036256] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Nov  6 20:29:32 nick kernel: [    0.036257] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Nov  6 20:29:32 nick kernel: [    0.036259] ACPI: IRQ0 used by override.
+Nov  6 20:29:32 nick kernel: [    0.036259] ACPI: IRQ9 used by override.
+Nov  6 20:29:32 nick kernel: [    0.036260] Using ACPI (MADT) for SMP configuration information
+Nov  6 20:29:32 nick kernel: [    0.036261] ACPI: HPET id: 0x43538210 base: 0xfed00000
+Nov  6 20:29:32 nick kernel: [    0.036271] e820: update [mem 0xc0aec000-0xc0b7cfff] usable ==> reserved
+Nov  6 20:29:32 nick kernel: [    0.036280] smpboot: Allowing 16 CPUs, 0 hotplug CPUs
+Nov  6 20:29:32 nick kernel: [    0.036295] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Nov  6 20:29:32 nick kernel: [    0.036296] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Nov  6 20:29:32 nick kernel: [    0.036297] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+Nov  6 20:29:32 nick kernel: [    0.036297] PM: hibernation: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+Nov  6 20:29:32 nick kernel: [    0.036298] PM: hibernation: Registered nosave memory: [mem 0x09c00000-0x09da0fff]
+Nov  6 20:29:32 nick kernel: [    0.036299] PM: hibernation: Registered nosave memory: [mem 0x09f00000-0x09f0cfff]
+Nov  6 20:29:32 nick kernel: [    0.036300] PM: hibernation: Registered nosave memory: [mem 0x99942000-0x99942fff]
+Nov  6 20:29:32 nick kernel: [    0.036301] PM: hibernation: Registered nosave memory: [mem 0x9994f000-0x9994ffff]
+Nov  6 20:29:32 nick kernel: [    0.036302] PM: hibernation: Registered nosave memory: [mem 0xc0aec000-0xc0b7cfff]
+Nov  6 20:29:32 nick kernel: [    0.036303] PM: hibernation: Registered nosave memory: [mem 0xc12cd000-0xc12cdfff]
+Nov  6 20:29:32 nick kernel: [    0.036304] PM: hibernation: Registered nosave memory: [mem 0xc1cb2000-0xc1cb2fff]
+Nov  6 20:29:32 nick kernel: [    0.036305] PM: hibernation: Registered nosave memory: [mem 0xc4d7e000-0xcaf7dfff]
+Nov  6 20:29:32 nick kernel: [    0.036305] PM: hibernation: Registered nosave memory: [mem 0xcaf7e000-0xcbf7dfff]
+Nov  6 20:29:32 nick kernel: [    0.036306] PM: hibernation: Registered nosave memory: [mem 0xcbf7e000-0xcbffdfff]
+Nov  6 20:29:32 nick kernel: [    0.036307] PM: hibernation: Registered nosave memory: [mem 0xce000000-0xcfffffff]
+Nov  6 20:29:32 nick kernel: [    0.036307] PM: hibernation: Registered nosave memory: [mem 0xd0000000-0xf7ffffff]
+Nov  6 20:29:32 nick kernel: [    0.036307] PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xfbffffff]
+Nov  6 20:29:32 nick kernel: [    0.036308] PM: hibernation: Registered nosave memory: [mem 0xfc000000-0xfdbfffff]
+Nov  6 20:29:32 nick kernel: [    0.036308] PM: hibernation: Registered nosave memory: [mem 0xfdc00000-0xfdcfffff]
+Nov  6 20:29:32 nick kernel: [    0.036309] PM: hibernation: Registered nosave memory: [mem 0xfdd00000-0xfed7ffff]
+Nov  6 20:29:32 nick kernel: [    0.036309] PM: hibernation: Registered nosave memory: [mem 0xfed80000-0xfed80fff]
+Nov  6 20:29:32 nick kernel: [    0.036309] PM: hibernation: Registered nosave memory: [mem 0xfed81000-0xffffffff]
+Nov  6 20:29:32 nick kernel: [    0.036310] [mem 0xd0000000-0xf7ffffff] available for PCI devices
+Nov  6 20:29:32 nick kernel: [    0.036312] Booting paravirtualized kernel on bare hardware
+Nov  6 20:29:32 nick kernel: [    0.036315] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Nov  6 20:29:32 nick kernel: [    0.036321] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:16 nr_cpu_ids:16 nr_node_ids:1
+Nov  6 20:29:32 nick kernel: [    0.036934] percpu: Embedded 57 pages/cpu s196608 r8192 d28672 u262144
+Nov  6 20:29:32 nick kernel: [    0.036938] pcpu-alloc: s196608 r8192 d28672 u262144 alloc=1*2097152
+Nov  6 20:29:32 nick kernel: [    0.036940] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Nov  6 20:29:32 nick kernel: [    0.036962] Built 1 zonelists, mobility grouping on.  Total pages: 3825814
+Nov  6 20:29:32 nick kernel: [    0.036963] Policy zone: Normal
+Nov  6 20:29:32 nick kernel: [    0.036963] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.13.0-20-generic root=UUID=dabed761-e7d6-40b0-b1ec-77d864312752 ro quiet splash vt.handoff=7
+Nov  6 20:29:32 nick kernel: [    0.038825] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.039766] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.039801] mem auto-init: stack:off, heap alloc:on, heap free:off
+Nov  6 20:29:32 nick kernel: [    0.075019] Memory: 15020488K/15546816K available (16393K kernel code, 3507K rwdata, 10500K rodata, 2860K init, 5768K bss, 526068K reserved, 0K cma-reserved)
+Nov  6 20:29:32 nick kernel: [    0.075027] random: get_random_u64 called from kmem_cache_open+0x25/0x330 with crng_init=1
+Nov  6 20:29:32 nick kernel: [    0.075100] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=16, Nodes=1
+Nov  6 20:29:32 nick kernel: [    0.075111] ftrace: allocating 49705 entries in 195 pages
+Nov  6 20:29:32 nick kernel: [    0.088285] ftrace: allocated 195 pages with 4 groups
+Nov  6 20:29:32 nick kernel: [    0.088406] rcu: Hierarchical RCU implementation.
+Nov  6 20:29:32 nick kernel: [    0.088407] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=16.
+Nov  6 20:29:32 nick kernel: [    0.088408] 	Rude variant of Tasks RCU enabled.
+Nov  6 20:29:32 nick kernel: [    0.088408] 	Tracing variant of Tasks RCU enabled.
+Nov  6 20:29:32 nick kernel: [    0.088409] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Nov  6 20:29:32 nick kernel: [    0.088409] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=16
+Nov  6 20:29:32 nick kernel: [    0.090650] NR_IRQS: 524544, nr_irqs: 1096, preallocated irqs: 16
+Nov  6 20:29:32 nick kernel: [    0.090925] random: crng done (trusting CPU's manufacturer)
+Nov  6 20:29:32 nick kernel: [    0.090944] vt handoff: transparent VT on vt#7
+Nov  6 20:29:32 nick kernel: [    0.090946] Console: colour dummy device 80x25
+Nov  6 20:29:32 nick kernel: [    0.090956] printk: console [tty0] enabled
+Nov  6 20:29:32 nick kernel: [    0.090969] ACPI: Core revision 20210331
+Nov  6 20:29:32 nick kernel: [    0.091123] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484873504 ns
+Nov  6 20:29:32 nick kernel: [    0.091141] APIC: Switch to symmetric I/O mode setup
+Nov  6 20:29:32 nick kernel: [    0.091902] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR0, rdevid:160
+Nov  6 20:29:32 nick kernel: [    0.091903] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR1, rdevid:160
+Nov  6 20:29:32 nick kernel: [    0.091904] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR2, rdevid:160
+Nov  6 20:29:32 nick kernel: [    0.091904] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR3, rdevid:160
+Nov  6 20:29:32 nick kernel: [    0.092186] Switched APIC routing to physical flat.
+Nov  6 20:29:32 nick kernel: [    0.092922] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Nov  6 20:29:32 nick kernel: [    0.111148] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x36aaed8f51d, max_idle_ns: 881590670534 ns
+Nov  6 20:29:32 nick kernel: [    0.111152] Calibrating delay loop (skipped), value calculated using timer frequency.. 3792.57 BogoMIPS (lpj=7585140)
+Nov  6 20:29:32 nick kernel: [    0.111155] pid_max: default: 32768 minimum: 301
+Nov  6 20:29:32 nick kernel: [    0.112624] LSM: Security Framework initializing
+Nov  6 20:29:32 nick kernel: [    0.112636] Yama: becoming mindful.
+Nov  6 20:29:32 nick kernel: [    0.112660] AppArmor: AppArmor initialized
+Nov  6 20:29:32 nick kernel: [    0.112715] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.112756] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.112974] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+Nov  6 20:29:32 nick kernel: [    0.112984] LVT offset 1 assigned for vector 0xf9
+Nov  6 20:29:32 nick kernel: [    0.112996] LVT offset 2 assigned for vector 0xf4
+Nov  6 20:29:32 nick kernel: [    0.112999] Last level iTLB entries: 4KB 512, 2MB 512, 4MB 256
+Nov  6 20:29:32 nick kernel: [    0.112999] Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+Nov  6 20:29:32 nick kernel: [    0.113002] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Nov  6 20:29:32 nick kernel: [    0.113004] Spectre V2 : Mitigation: Full AMD retpoline
+Nov  6 20:29:32 nick kernel: [    0.113004] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Nov  6 20:29:32 nick kernel: [    0.113005] Spectre V2 : Enabling Restricted Speculation for firmware calls
+Nov  6 20:29:32 nick kernel: [    0.113006] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Nov  6 20:29:32 nick kernel: [    0.113007] Spectre V2 : User space: Mitigation: STIBP always-on protection
+Nov  6 20:29:32 nick kernel: [    0.113008] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Nov  6 20:29:32 nick kernel: [    0.117163] Freeing SMP alternatives memory: 40K
+Nov  6 20:29:32 nick kernel: [    0.226238] smpboot: CPU0: AMD Ryzen 7 PRO 5850U with Radeon Graphics (family: 0x19, model: 0x50, stepping: 0x0)
+Nov  6 20:29:32 nick kernel: [    0.226361] Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+Nov  6 20:29:32 nick kernel: [    0.226365] ... version:                0
+Nov  6 20:29:32 nick kernel: [    0.226366] ... bit width:              48
+Nov  6 20:29:32 nick kernel: [    0.226366] ... generic registers:      6
+Nov  6 20:29:32 nick kernel: [    0.226367] ... value mask:             0000ffffffffffff
+Nov  6 20:29:32 nick kernel: [    0.226367] ... max period:             00007fffffffffff
+Nov  6 20:29:32 nick kernel: [    0.226368] ... fixed-purpose events:   0
+Nov  6 20:29:32 nick kernel: [    0.226368] ... event mask:             000000000000003f
+Nov  6 20:29:32 nick kernel: [    0.226412] rcu: Hierarchical SRCU implementation.
+Nov  6 20:29:32 nick kernel: [    0.226727] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+Nov  6 20:29:32 nick kernel: [    0.226852] smp: Bringing up secondary CPUs ...
+Nov  6 20:29:32 nick kernel: [    0.226922] x86: Booting SMP configuration:
+Nov  6 20:29:32 nick kernel: [    0.226923] .... node  #0, CPUs:        #1
+Nov  6 20:29:32 nick kernel: [    0.227233] Spectre V2 : Update user space SMT mitigation: STIBP always-on
+Nov  6 20:29:32 nick kernel: [    0.227275]   #2  #3  #4  #5  #6  #7  #8  #9 #10 #11 #12 #13 #14 #15
+Nov  6 20:29:32 nick kernel: [    0.257305] smp: Brought up 1 node, 16 CPUs
+Nov  6 20:29:32 nick kernel: [    0.257305] smpboot: Max logical packages: 1
+Nov  6 20:29:32 nick kernel: [    0.257305] smpboot: Total of 16 processors activated (60681.12 BogoMIPS)
+Nov  6 20:29:32 nick kernel: [    0.259401] devtmpfs: initialized
+Nov  6 20:29:32 nick kernel: [    0.259401] x86/mm: Memory block size: 128MB
+Nov  6 20:29:32 nick kernel: [    0.259702] PM: Registering ACPI NVS region [mem 0x09f00000-0x09f0cfff] (53248 bytes)
+Nov  6 20:29:32 nick kernel: [    0.259702] PM: Registering ACPI NVS region [mem 0xcaf7e000-0xcbf7dfff] (16777216 bytes)
+Nov  6 20:29:32 nick kernel: [    0.259702] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Nov  6 20:29:32 nick kernel: [    0.259702] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.259702] pinctrl core: initialized pinctrl subsystem
+Nov  6 20:29:32 nick kernel: [    0.259702] PM: RTC time: 20:29:28, date: 2021-11-06
+Nov  6 20:29:32 nick kernel: [    0.259702] NET: Registered protocol family 16
+Nov  6 20:29:32 nick kernel: [    0.259803] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+Nov  6 20:29:32 nick kernel: [    0.259928] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Nov  6 20:29:32 nick kernel: [    0.260054] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Nov  6 20:29:32 nick kernel: [    0.260058] audit: initializing netlink subsys (disabled)
+Nov  6 20:29:32 nick kernel: [    0.260063] audit: type=2000 audit(1636230568.168:1): state=initialized audit_enabled=0 res=1
+Nov  6 20:29:32 nick kernel: [    0.260063] thermal_sys: Registered thermal governor 'fair_share'
+Nov  6 20:29:32 nick kernel: [    0.260063] thermal_sys: Registered thermal governor 'bang_bang'
+Nov  6 20:29:32 nick kernel: [    0.260063] thermal_sys: Registered thermal governor 'step_wise'
+Nov  6 20:29:32 nick kernel: [    0.260063] thermal_sys: Registered thermal governor 'user_space'
+Nov  6 20:29:32 nick kernel: [    0.260063] thermal_sys: Registered thermal governor 'power_allocator'
+Nov  6 20:29:32 nick kernel: [    0.260063] EISA bus registered
+Nov  6 20:29:32 nick kernel: [    0.260063] cpuidle: using governor ladder
+Nov  6 20:29:32 nick kernel: [    0.260063] cpuidle: using governor menu
+Nov  6 20:29:32 nick kernel: [    0.260063] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+Nov  6 20:29:32 nick kernel: [    0.260063] ACPI: bus type PCI registered
+Nov  6 20:29:32 nick kernel: [    0.260063] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Nov  6 20:29:32 nick kernel: [    0.260063] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+Nov  6 20:29:32 nick kernel: [    0.260063] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820
+Nov  6 20:29:32 nick kernel: [    0.260063] PCI: Using configuration type 1 for base access
+Nov  6 20:29:32 nick kernel: [    0.260114] Kprobes globally optimized
+Nov  6 20:29:32 nick kernel: [    0.260117] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Nov  6 20:29:32 nick kernel: [    0.260117] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Nov  6 20:29:32 nick kernel: [    0.263191] ACPI: Added _OSI(Module Device)
+Nov  6 20:29:32 nick kernel: [    0.263192] ACPI: Added _OSI(Processor Device)
+Nov  6 20:29:32 nick kernel: [    0.263192] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov  6 20:29:32 nick kernel: [    0.263192] ACPI: Added _OSI(Processor Aggregator Device)
+Nov  6 20:29:32 nick kernel: [    0.263193] ACPI: Added _OSI(Linux-Dell-Video)
+Nov  6 20:29:32 nick kernel: [    0.263194] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Nov  6 20:29:32 nick kernel: [    0.263194] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Nov  6 20:29:32 nick kernel: [    0.277413] ACPI: 14 ACPI AML tables successfully acquired and loaded
+Nov  6 20:29:32 nick kernel: [    0.278539] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+Nov  6 20:29:32 nick kernel: [    0.300898] ACPI: EC: EC started
+Nov  6 20:29:32 nick kernel: [    0.300899] ACPI: EC: interrupt blocked
+Nov  6 20:29:32 nick kernel: [    0.301126] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Nov  6 20:29:32 nick kernel: [    0.301128] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC used to handle transactions
+Nov  6 20:29:32 nick kernel: [    0.301129] ACPI: Interpreter enabled
+Nov  6 20:29:32 nick kernel: [    0.301142] ACPI: (supports S0 S3 S4 S5)
+Nov  6 20:29:32 nick kernel: [    0.301143] ACPI: Using IOAPIC for interrupt routing
+Nov  6 20:29:32 nick kernel: [    0.301285] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Nov  6 20:29:32 nick kernel: [    0.301480] ACPI: Enabled 2 GPEs in block 00 to 1F
+Nov  6 20:29:32 nick kernel: [    0.302354] ACPI: PM: Power Resource [P0U1] (on)
+Nov  6 20:29:32 nick kernel: [    0.302370] ACPI: PM: Power Resource [P3U1] (on)
+Nov  6 20:29:32 nick kernel: [    0.302556] ACPI: PM: Power Resource [WRST] (on)
+Nov  6 20:29:32 nick kernel: [    0.302647] ACPI: PM: Power Resource [P0NV] (on)
+Nov  6 20:29:32 nick kernel: [    0.305667] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Nov  6 20:29:32 nick kernel: [    0.305672] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+Nov  6 20:29:32 nick kernel: [    0.305783] acpi PNP0A08:00: _OSC: platform does not support [SHPCHotplug LTR]
+Nov  6 20:29:32 nick kernel: [    0.305889] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PME AER PCIeCapability]
+Nov  6 20:29:32 nick kernel: [    0.305890] acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration
+Nov  6 20:29:32 nick kernel: [    0.305898] acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge
+Nov  6 20:29:32 nick kernel: [    0.306061] PCI host bridge to bus 0000:00
+Nov  6 20:29:32 nick kernel: [    0.306063] pci_bus 0000:00: root bus resource [bus 00-ff]
+Nov  6 20:29:32 nick kernel: [    0.306064] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Nov  6 20:29:32 nick kernel: [    0.306065] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Nov  6 20:29:32 nick kernel: [    0.306066] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000effff window]
+Nov  6 20:29:32 nick kernel: [    0.306067] pci_bus 0000:00: root bus resource [mem 0xd0000000-0xf7ffffff window]
+Nov  6 20:29:32 nick kernel: [    0.306067] pci_bus 0000:00: root bus resource [mem 0xfc000000-0xfdffffff window]
+Nov  6 20:29:32 nick kernel: [    0.306068] pci_bus 0000:00: root bus resource [mem 0x430000000-0xffffffffff window]
+Nov  6 20:29:32 nick kernel: [    0.306076] pci 0000:00:00.0: [1022:1630] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.306158] pci 0000:00:00.2: [1022:1631] type 00 class 0x080600
+Nov  6 20:29:32 nick kernel: [    0.306233] pci 0000:00:01.0: [1022:1632] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.306306] pci 0000:00:02.0: [1022:1632] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.306372] pci 0000:00:02.1: [1022:1634] type 01 class 0x060400
+Nov  6 20:29:32 nick kernel: [    0.306422] pci 0000:00:02.1: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.306490] pci 0000:00:02.2: [1022:1634] type 01 class 0x060400
+Nov  6 20:29:32 nick kernel: [    0.306538] pci 0000:00:02.2: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.306610] pci 0000:00:02.3: [1022:1634] type 01 class 0x060400
+Nov  6 20:29:32 nick kernel: [    0.306674] pci 0000:00:02.3: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.306727] pci 0000:00:02.4: [1022:1634] type 01 class 0x060400
+Nov  6 20:29:32 nick kernel: [    0.306775] pci 0000:00:02.4: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.306851] pci 0000:00:02.6: [1022:1634] type 01 class 0x060400
+Nov  6 20:29:32 nick kernel: [    0.306899] pci 0000:00:02.6: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.306971] pci 0000:00:02.7: [1022:1634] type 01 class 0x060400
+Nov  6 20:29:32 nick kernel: [    0.307019] pci 0000:00:02.7: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.307094] pci 0000:00:08.0: [1022:1632] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307162] pci 0000:00:08.1: [1022:1635] type 01 class 0x060400
+Nov  6 20:29:32 nick kernel: [    0.307182] pci 0000:00:08.1: enabling Extended Tags
+Nov  6 20:29:32 nick kernel: [    0.307209] pci 0000:00:08.1: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.307300] pci 0000:00:14.0: [1022:790b] type 00 class 0x0c0500
+Nov  6 20:29:32 nick kernel: [    0.307398] pci 0000:00:14.3: [1022:790e] type 00 class 0x060100
+Nov  6 20:29:32 nick kernel: [    0.307518] pci 0000:00:18.0: [1022:166a] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307561] pci 0000:00:18.1: [1022:166b] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307607] pci 0000:00:18.2: [1022:166c] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307650] pci 0000:00:18.3: [1022:166d] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307694] pci 0000:00:18.4: [1022:166e] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307738] pci 0000:00:18.5: [1022:166f] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307782] pci 0000:00:18.6: [1022:1670] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307827] pci 0000:00:18.7: [1022:1671] type 00 class 0x060000
+Nov  6 20:29:32 nick kernel: [    0.307987] pci 0000:01:00.0: [15b7:5006] type 00 class 0x010802
+Nov  6 20:29:32 nick kernel: [    0.308003] pci 0000:01:00.0: reg 0x10: [mem 0xfd900000-0xfd903fff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.308025] pci 0000:01:00.0: reg 0x20: [mem 0xfd904000-0xfd9040ff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.308177] pci 0000:00:02.1: PCI bridge to [bus 01]
+Nov  6 20:29:32 nick kernel: [    0.308181] pci 0000:00:02.1:   bridge window [mem 0xfd900000-0xfd9fffff]
+Nov  6 20:29:32 nick kernel: [    0.308230] pci 0000:02:00.0: [10ec:8168] type 00 class 0x020000
+Nov  6 20:29:32 nick kernel: [    0.308246] pci 0000:02:00.0: reg 0x10: [io  0x4000-0x40ff]
+Nov  6 20:29:32 nick kernel: [    0.308267] pci 0000:02:00.0: reg 0x18: [mem 0xfd804000-0xfd804fff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.308280] pci 0000:02:00.0: reg 0x20: [mem 0xfd800000-0xfd803fff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.308367] pci 0000:02:00.0: supports D1 D2
+Nov  6 20:29:32 nick kernel: [    0.308368] pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.308502] pci 0000:00:02.2: PCI bridge to [bus 02]
+Nov  6 20:29:32 nick kernel: [    0.308504] pci 0000:00:02.2:   bridge window [io  0x4000-0x4fff]
+Nov  6 20:29:32 nick kernel: [    0.308506] pci 0000:00:02.2:   bridge window [mem 0xfd800000-0xfd8fffff]
+Nov  6 20:29:32 nick kernel: [    0.308570] pci 0000:03:00.0: [10ec:8852] type 00 class 0x028000
+Nov  6 20:29:32 nick kernel: [    0.308588] pci 0000:03:00.0: reg 0x10: [io  0x3000-0x30ff]
+Nov  6 20:29:32 nick kernel: [    0.308610] pci 0000:03:00.0: reg 0x18: [mem 0xfd700000-0xfd7fffff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.308723] pci 0000:03:00.0: supports D1 D2
+Nov  6 20:29:32 nick kernel: [    0.308723] pci 0000:03:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.308857] pci 0000:00:02.3: PCI bridge to [bus 03]
+Nov  6 20:29:32 nick kernel: [    0.308860] pci 0000:00:02.3:   bridge window [io  0x3000-0x3fff]
+Nov  6 20:29:32 nick kernel: [    0.308861] pci 0000:00:02.3:   bridge window [mem 0xfd700000-0xfd7fffff]
+Nov  6 20:29:32 nick kernel: [    0.311183] pci 0000:04:00.0: [17a0:9750] type 00 class 0x080501
+Nov  6 20:29:32 nick kernel: [    0.311204] pci 0000:04:00.0: reg 0x10: [mem 0xfd600000-0xfd600fff]
+Nov  6 20:29:32 nick kernel: [    0.311367] pci 0000:04:00.0: supports D1 D2
+Nov  6 20:29:32 nick kernel: [    0.311368] pci 0000:04:00.0: PME# supported from D1 D2 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.315191] pci 0000:00:02.4: PCI bridge to [bus 04]
+Nov  6 20:29:32 nick kernel: [    0.315194] pci 0000:00:02.4:   bridge window [mem 0xfd600000-0xfd6fffff]
+Nov  6 20:29:32 nick kernel: [    0.315238] pci 0000:05:00.0: [10ec:8168] type 00 class 0x020000
+Nov  6 20:29:32 nick kernel: [    0.315252] pci 0000:05:00.0: reg 0x10: [io  0x2000-0x20ff]
+Nov  6 20:29:32 nick kernel: [    0.315268] pci 0000:05:00.0: reg 0x18: [mem 0xfd504000-0xfd504fff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.315278] pci 0000:05:00.0: reg 0x20: [mem 0xfd500000-0xfd503fff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.315357] pci 0000:05:00.0: supports D1 D2
+Nov  6 20:29:32 nick kernel: [    0.315357] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.315472] pci 0000:00:02.6: PCI bridge to [bus 05]
+Nov  6 20:29:32 nick kernel: [    0.315474] pci 0000:00:02.6:   bridge window [io  0x2000-0x2fff]
+Nov  6 20:29:32 nick kernel: [    0.315476] pci 0000:00:02.6:   bridge window [mem 0xfd500000-0xfd5fffff]
+Nov  6 20:29:32 nick kernel: [    0.315572] pci 0000:06:00.0: [1912:0015] type 00 class 0x0c0330
+Nov  6 20:29:32 nick kernel: [    0.315591] pci 0000:06:00.0: reg 0x10: [mem 0xfd400000-0xfd401fff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.315687] pci 0000:06:00.0: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.315766] pci 0000:00:02.7: PCI bridge to [bus 06]
+Nov  6 20:29:32 nick kernel: [    0.315769] pci 0000:00:02.7:   bridge window [mem 0xfd400000-0xfd4fffff]
+Nov  6 20:29:32 nick kernel: [    0.315824] pci 0000:07:00.0: [1002:1638] type 00 class 0x030000
+Nov  6 20:29:32 nick kernel: [    0.315834] pci 0000:07:00.0: reg 0x10: [mem 0x460000000-0x46fffffff 64bit pref]
+Nov  6 20:29:32 nick kernel: [    0.315841] pci 0000:07:00.0: reg 0x18: [mem 0x470000000-0x4701fffff 64bit pref]
+Nov  6 20:29:32 nick kernel: [    0.315846] pci 0000:07:00.0: reg 0x20: [io  0x1000-0x10ff]
+Nov  6 20:29:32 nick kernel: [    0.315850] pci 0000:07:00.0: reg 0x24: [mem 0xfd300000-0xfd37ffff]
+Nov  6 20:29:32 nick kernel: [    0.315858] pci 0000:07:00.0: enabling Extended Tags
+Nov  6 20:29:32 nick kernel: [    0.315867] pci 0000:07:00.0: BAR 0: assigned to efifb
+Nov  6 20:29:32 nick kernel: [    0.315902] pci 0000:07:00.0: PME# supported from D1 D2 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.315933] pci 0000:07:00.0: 126.016 Gb/s available PCIe bandwidth, limited by 8.0 GT/s PCIe x16 link at 0000:00:08.1 (capable of 252.048 Gb/s with 16.0 GT/s PCIe x16 link)
+Nov  6 20:29:32 nick kernel: [    0.315983] pci 0000:07:00.1: [1002:1637] type 00 class 0x040300
+Nov  6 20:29:32 nick kernel: [    0.315991] pci 0000:07:00.1: reg 0x10: [mem 0xfd3c8000-0xfd3cbfff]
+Nov  6 20:29:32 nick kernel: [    0.316018] pci 0000:07:00.1: enabling Extended Tags
+Nov  6 20:29:32 nick kernel: [    0.316049] pci 0000:07:00.1: PME# supported from D1 D2 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.316101] pci 0000:07:00.2: [1022:15df] type 00 class 0x108000
+Nov  6 20:29:32 nick kernel: [    0.316116] pci 0000:07:00.2: reg 0x18: [mem 0xfd200000-0xfd2fffff]
+Nov  6 20:29:32 nick kernel: [    0.316126] pci 0000:07:00.2: reg 0x24: [mem 0xfd3cc000-0xfd3cdfff]
+Nov  6 20:29:32 nick kernel: [    0.316134] pci 0000:07:00.2: enabling Extended Tags
+Nov  6 20:29:32 nick kernel: [    0.316216] pci 0000:07:00.3: [1022:1639] type 00 class 0x0c0330
+Nov  6 20:29:32 nick kernel: [    0.316228] pci 0000:07:00.3: reg 0x10: [mem 0xfd000000-0xfd0fffff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.316256] pci 0000:07:00.3: enabling Extended Tags
+Nov  6 20:29:32 nick kernel: [    0.316290] pci 0000:07:00.3: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.316346] pci 0000:07:00.4: [1022:1639] type 00 class 0x0c0330
+Nov  6 20:29:32 nick kernel: [    0.316359] pci 0000:07:00.4: reg 0x10: [mem 0xfd100000-0xfd1fffff 64bit]
+Nov  6 20:29:32 nick kernel: [    0.316386] pci 0000:07:00.4: enabling Extended Tags
+Nov  6 20:29:32 nick kernel: [    0.316422] pci 0000:07:00.4: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.316477] pci 0000:07:00.5: [1022:15e2] type 00 class 0x048000
+Nov  6 20:29:32 nick kernel: [    0.316485] pci 0000:07:00.5: reg 0x10: [mem 0xfd380000-0xfd3bffff]
+Nov  6 20:29:32 nick kernel: [    0.316509] pci 0000:07:00.5: enabling Extended Tags
+Nov  6 20:29:32 nick kernel: [    0.316540] pci 0000:07:00.5: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.316591] pci 0000:07:00.6: [1022:15e3] type 00 class 0x040300
+Nov  6 20:29:32 nick kernel: [    0.316599] pci 0000:07:00.6: reg 0x10: [mem 0xfd3c0000-0xfd3c7fff]
+Nov  6 20:29:32 nick kernel: [    0.316623] pci 0000:07:00.6: enabling Extended Tags
+Nov  6 20:29:32 nick kernel: [    0.316655] pci 0000:07:00.6: PME# supported from D0 D3hot D3cold
+Nov  6 20:29:32 nick kernel: [    0.316729] pci 0000:00:08.1: PCI bridge to [bus 07]
+Nov  6 20:29:32 nick kernel: [    0.316732] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+Nov  6 20:29:32 nick kernel: [    0.316734] pci 0000:00:08.1:   bridge window [mem 0xfd000000-0xfd3fffff]
+Nov  6 20:29:32 nick kernel: [    0.316737] pci 0000:00:08.1:   bridge window [mem 0x460000000-0x4701fffff 64bit pref]
+Nov  6 20:29:32 nick kernel: [    0.316908] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+Nov  6 20:29:32 nick kernel: [    0.316959] ACPI: PCI: Interrupt link LNKB configured for IRQ 0
+Nov  6 20:29:32 nick kernel: [    0.316992] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+Nov  6 20:29:32 nick kernel: [    0.317039] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+Nov  6 20:29:32 nick kernel: [    0.317081] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+Nov  6 20:29:32 nick kernel: [    0.317112] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+Nov  6 20:29:32 nick kernel: [    0.317143] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+Nov  6 20:29:32 nick kernel: [    0.317174] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+Nov  6 20:29:32 nick kernel: [    0.317829] acpi LNXPOWER:02: Turning OFF
+Nov  6 20:29:32 nick kernel: [    0.317872] ACPI: EC: interrupt unblocked
+Nov  6 20:29:32 nick kernel: [    0.317873] ACPI: EC: event unblocked
+Nov  6 20:29:32 nick kernel: [    0.317877] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Nov  6 20:29:32 nick kernel: [    0.317878] ACPI: EC: GPE=0x3
+Nov  6 20:29:32 nick kernel: [    0.317879] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC initialization complete
+Nov  6 20:29:32 nick kernel: [    0.317880] ACPI: \_SB_.PCI0.LPC0.EC0_: EC: Used to handle transactions and events
+Nov  6 20:29:32 nick kernel: [    0.317919] iommu: Default domain type: Translated 
+Nov  6 20:29:32 nick kernel: [    0.317919] SCSI subsystem initialized
+Nov  6 20:29:32 nick kernel: [    0.317919] libata version 3.00 loaded.
+Nov  6 20:29:32 nick kernel: [    0.317919] pci 0000:07:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+Nov  6 20:29:32 nick kernel: [    0.317919] pci 0000:07:00.0: vgaarb: bridge control possible
+Nov  6 20:29:32 nick kernel: [    0.317919] pci 0000:07:00.0: vgaarb: setting as boot device
+Nov  6 20:29:32 nick kernel: [    0.317919] vgaarb: loaded
+Nov  6 20:29:32 nick kernel: [    0.317919] ACPI: bus type USB registered
+Nov  6 20:29:32 nick kernel: [    0.317919] usbcore: registered new interface driver usbfs
+Nov  6 20:29:32 nick kernel: [    0.317919] usbcore: registered new interface driver hub
+Nov  6 20:29:32 nick kernel: [    0.317919] usbcore: registered new device driver usb
+Nov  6 20:29:32 nick kernel: [    0.320329] pps_core: LinuxPPS API ver. 1 registered
+Nov  6 20:29:32 nick kernel: [    0.320330] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov  6 20:29:32 nick kernel: [    0.320332] PTP clock support registered
+Nov  6 20:29:32 nick kernel: [    0.320341] EDAC MC: Ver: 3.0.0
+Nov  6 20:29:32 nick kernel: [    0.323183] Registered efivars operations
+Nov  6 20:29:32 nick kernel: [    0.323231] NetLabel: Initializing
+Nov  6 20:29:32 nick kernel: [    0.323231] NetLabel:  domain hash size = 128
+Nov  6 20:29:32 nick kernel: [    0.323232] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Nov  6 20:29:32 nick kernel: [    0.323240] NetLabel:  unlabeled traffic allowed by default
+Nov  6 20:29:32 nick kernel: [    0.323246] PCI: Using ACPI for IRQ routing
+Nov  6 20:29:32 nick kernel: [    0.325108] PCI: pci_cache_line_size set to 64 bytes
+Nov  6 20:29:32 nick kernel: [    0.331165] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+Nov  6 20:29:32 nick kernel: [    0.331166] e820: reserve RAM buffer [mem 0x09c00000-0x0bffffff]
+Nov  6 20:29:32 nick kernel: [    0.331167] e820: reserve RAM buffer [mem 0x09f00000-0x0bffffff]
+Nov  6 20:29:32 nick kernel: [    0.331167] e820: reserve RAM buffer [mem 0x99942018-0x9bffffff]
+Nov  6 20:29:32 nick kernel: [    0.331168] e820: reserve RAM buffer [mem 0xc0aec000-0xc3ffffff]
+Nov  6 20:29:32 nick kernel: [    0.331169] e820: reserve RAM buffer [mem 0xc12cd000-0xc3ffffff]
+Nov  6 20:29:32 nick kernel: [    0.331169] e820: reserve RAM buffer [mem 0xc1cb2000-0xc3ffffff]
+Nov  6 20:29:32 nick kernel: [    0.331170] e820: reserve RAM buffer [mem 0xc4d7e000-0xc7ffffff]
+Nov  6 20:29:32 nick kernel: [    0.331170] e820: reserve RAM buffer [mem 0xce000000-0xcfffffff]
+Nov  6 20:29:32 nick kernel: [    0.331171] e820: reserve RAM buffer [mem 0x3ee300000-0x3efffffff]
+Nov  6 20:29:32 nick kernel: [    0.331179] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Nov  6 20:29:32 nick kernel: [    0.331179] hpet0: 3 comparators, 32-bit 14.318180 MHz counter
+Nov  6 20:29:32 nick kernel: [    0.335632] clocksource: Switched to clocksource tsc-early
+Nov  6 20:29:32 nick kernel: [    0.341331] VFS: Disk quotas dquot_6.6.0
+Nov  6 20:29:32 nick kernel: [    0.341344] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Nov  6 20:29:32 nick kernel: [    0.341416] AppArmor: AppArmor Filesystem Enabled
+Nov  6 20:29:32 nick kernel: [    0.341436] pnp: PnP ACPI init
+Nov  6 20:29:32 nick kernel: [    0.341538] system 00:00: [mem 0xfec00000-0xfec01fff] could not be reserved
+Nov  6 20:29:32 nick kernel: [    0.341540] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341541] system 00:00: [mem 0xf8000000-0xfbffffff] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341544] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Nov  6 20:29:32 nick kernel: [    0.341665] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Nov  6 20:29:32 nick kernel: [    0.341685] system 00:02: [io  0x0400-0x04cf] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341687] system 00:02: [io  0x04d0-0x04d1] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341687] system 00:02: [io  0x04d6] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341688] system 00:02: [io  0x0c00-0x0c01] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341689] system 00:02: [io  0x0c14] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341689] system 00:02: [io  0x0c50-0x0c52] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341690] system 00:02: [io  0x0c6c] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341691] system 00:02: [io  0x0c6f] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341691] system 00:02: [io  0x0cd0-0x0cdb] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341693] system 00:02: Plug and Play ACPI device, IDs PNP0c02 (active)
+Nov  6 20:29:32 nick kernel: [    0.341738] system 00:03: [mem 0x000e0000-0x000fffff] could not be reserved
+Nov  6 20:29:32 nick kernel: [    0.341739] system 00:03: [mem 0x00000000-0x01ffffff] could not be reserved
+Nov  6 20:29:32 nick kernel: [    0.341740] system 00:03: [mem 0xfec10000-0xfec1001f] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341741] system 00:03: [mem 0xfed00000-0xfed003ff] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341741] system 00:03: [mem 0xfed61000-0xfed613ff] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341742] system 00:03: [mem 0xfed80000-0xfed80fff] has been reserved
+Nov  6 20:29:32 nick kernel: [    0.341744] system 00:03: Plug and Play ACPI device, IDs PNP0c01 (active)
+Nov  6 20:29:32 nick kernel: [    0.341754] pnp 00:04: Plug and Play ACPI device, IDs LEN0071 PNP0303 (active)
+Nov  6 20:29:32 nick kernel: [    0.341763] pnp 00:05: Plug and Play ACPI device, IDs LEN2073 PNP0f13 (active)
+Nov  6 20:29:32 nick kernel: [    0.342014] pnp: PnP ACPI: found 6 devices
+Nov  6 20:29:32 nick kernel: [    0.347638] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Nov  6 20:29:32 nick kernel: [    0.347692] NET: Registered protocol family 2
+Nov  6 20:29:32 nick kernel: [    0.347979] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.349228] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.349370] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.349546] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.349603] TCP: Hash tables configured (established 131072 bind 65536)
+Nov  6 20:29:32 nick kernel: [    0.349687] MPTCP token hash table entries: 16384 (order: 6, 393216 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.349738] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.349791] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+Nov  6 20:29:32 nick kernel: [    0.349846] NET: Registered protocol family 1
+Nov  6 20:29:32 nick kernel: [    0.349850] NET: Registered protocol family 44
+Nov  6 20:29:32 nick kernel: [    0.349856] pci 0000:00:02.3: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 03] add_size 200000 add_align 100000
+Nov  6 20:29:32 nick kernel: [    0.349863] pci 0000:00:02.3: BAR 15: assigned [mem 0x430000000-0x4301fffff 64bit pref]
+Nov  6 20:29:32 nick kernel: [    0.349865] pci 0000:00:02.1: PCI bridge to [bus 01]
+Nov  6 20:29:32 nick kernel: [    0.349868] pci 0000:00:02.1:   bridge window [mem 0xfd900000-0xfd9fffff]
+Nov  6 20:29:32 nick kernel: [    0.349871] pci 0000:00:02.2: PCI bridge to [bus 02]
+Nov  6 20:29:32 nick kernel: [    0.349873] pci 0000:00:02.2:   bridge window [io  0x4000-0x4fff]
+Nov  6 20:29:32 nick kernel: [    0.349875] pci 0000:00:02.2:   bridge window [mem 0xfd800000-0xfd8fffff]
+Nov  6 20:29:32 nick kernel: [    0.349878] pci 0000:00:02.3: PCI bridge to [bus 03]
+Nov  6 20:29:32 nick kernel: [    0.349879] pci 0000:00:02.3:   bridge window [io  0x3000-0x3fff]
+Nov  6 20:29:32 nick kernel: [    0.349881] pci 0000:00:02.3:   bridge window [mem 0xfd700000-0xfd7fffff]
+Nov  6 20:29:32 nick kernel: [    0.349883] pci 0000:00:02.3:   bridge window [mem 0x430000000-0x4301fffff 64bit pref]
+Nov  6 20:29:32 nick kernel: [    0.349885] pci 0000:00:02.4: PCI bridge to [bus 04]
+Nov  6 20:29:32 nick kernel: [    0.349887] pci 0000:00:02.4:   bridge window [mem 0xfd600000-0xfd6fffff]
+Nov  6 20:29:32 nick kernel: [    0.349891] pci 0000:00:02.6: PCI bridge to [bus 05]
+Nov  6 20:29:32 nick kernel: [    0.349891] pci 0000:00:02.6:   bridge window [io  0x2000-0x2fff]
+Nov  6 20:29:32 nick kernel: [    0.349893] pci 0000:00:02.6:   bridge window [mem 0xfd500000-0xfd5fffff]
+Nov  6 20:29:32 nick kernel: [    0.349897] pci 0000:00:02.7: PCI bridge to [bus 06]
+Nov  6 20:29:32 nick kernel: [    0.349898] pci 0000:00:02.7:   bridge window [mem 0xfd400000-0xfd4fffff]
+Nov  6 20:29:32 nick kernel: [    0.349902] pci 0000:00:08.1: PCI bridge to [bus 07]
+Nov  6 20:29:32 nick kernel: [    0.349903] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+Nov  6 20:29:32 nick kernel: [    0.349905] pci 0000:00:08.1:   bridge window [mem 0xfd000000-0xfd3fffff]
+Nov  6 20:29:32 nick kernel: [    0.349907] pci 0000:00:08.1:   bridge window [mem 0x460000000-0x4701fffff 64bit pref]
+Nov  6 20:29:32 nick kernel: [    0.349909] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Nov  6 20:29:32 nick kernel: [    0.349910] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Nov  6 20:29:32 nick kernel: [    0.349911] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000effff window]
+Nov  6 20:29:32 nick kernel: [    0.349911] pci_bus 0000:00: resource 7 [mem 0xd0000000-0xf7ffffff window]
+Nov  6 20:29:32 nick kernel: [    0.349912] pci_bus 0000:00: resource 8 [mem 0xfc000000-0xfdffffff window]
+Nov  6 20:29:32 nick kernel: [    0.349912] pci_bus 0000:00: resource 9 [mem 0x430000000-0xffffffffff window]
+Nov  6 20:29:32 nick kernel: [    0.349913] pci_bus 0000:01: resource 1 [mem 0xfd900000-0xfd9fffff]
+Nov  6 20:29:32 nick kernel: [    0.349914] pci_bus 0000:02: resource 0 [io  0x4000-0x4fff]
+Nov  6 20:29:32 nick kernel: [    0.349914] pci_bus 0000:02: resource 1 [mem 0xfd800000-0xfd8fffff]
+Nov  6 20:29:32 nick kernel: [    0.349915] pci_bus 0000:03: resource 0 [io  0x3000-0x3fff]
+Nov  6 20:29:32 nick kernel: [    0.349915] pci_bus 0000:03: resource 1 [mem 0xfd700000-0xfd7fffff]
+Nov  6 20:29:32 nick kernel: [    0.349916] pci_bus 0000:03: resource 2 [mem 0x430000000-0x4301fffff 64bit pref]
+Nov  6 20:29:32 nick kernel: [    0.349917] pci_bus 0000:04: resource 1 [mem 0xfd600000-0xfd6fffff]
+Nov  6 20:29:32 nick kernel: [    0.349917] pci_bus 0000:05: resource 0 [io  0x2000-0x2fff]
+Nov  6 20:29:32 nick kernel: [    0.349918] pci_bus 0000:05: resource 1 [mem 0xfd500000-0xfd5fffff]
+Nov  6 20:29:32 nick kernel: [    0.349918] pci_bus 0000:06: resource 1 [mem 0xfd400000-0xfd4fffff]
+Nov  6 20:29:32 nick kernel: [    0.349919] pci_bus 0000:07: resource 0 [io  0x1000-0x1fff]
+Nov  6 20:29:32 nick kernel: [    0.349919] pci_bus 0000:07: resource 1 [mem 0xfd000000-0xfd3fffff]
+Nov  6 20:29:32 nick kernel: [    0.349920] pci_bus 0000:07: resource 2 [mem 0x460000000-0x4701fffff 64bit pref]
+Nov  6 20:29:32 nick kernel: [    0.353308] pci 0000:07:00.1: D0 power state depends on 0000:07:00.0
+Nov  6 20:29:32 nick kernel: [    0.353312] pci 0000:07:00.3: extending delay after power-on from D3hot to 20 msec
+Nov  6 20:29:32 nick kernel: [    0.353454] pci 0000:07:00.4: extending delay after power-on from D3hot to 20 msec
+Nov  6 20:29:32 nick kernel: [    0.353518] PCI: CLS 32 bytes, default 64
+Nov  6 20:29:32 nick kernel: [    0.353527] pci 0000:00:00.2: AMD-Vi: IOMMU performance counters supported
+Nov  6 20:29:32 nick kernel: [    0.353565] Trying to unpack rootfs image as initramfs...
+Nov  6 20:29:32 nick kernel: [    0.353585] pci 0000:00:00.2: can't derive routing for PCI INT A
+Nov  6 20:29:32 nick kernel: [    0.353585] pci 0000:00:00.2: PCI INT A: not connected
+Nov  6 20:29:32 nick kernel: [    0.353587] AMD-Vi: Lazy IO/TLB flushing enabled
+Nov  6 20:29:32 nick kernel: [    0.353597] pci 0000:00:01.0: Adding to iommu group 0
+Nov  6 20:29:32 nick kernel: [    0.353609] pci 0000:00:02.0: Adding to iommu group 1
+Nov  6 20:29:32 nick kernel: [    0.353614] pci 0000:00:02.1: Adding to iommu group 2
+Nov  6 20:29:32 nick kernel: [    0.353620] pci 0000:00:02.2: Adding to iommu group 3
+Nov  6 20:29:32 nick kernel: [    0.353625] pci 0000:00:02.3: Adding to iommu group 4
+Nov  6 20:29:32 nick kernel: [    0.353630] pci 0000:00:02.4: Adding to iommu group 5
+Nov  6 20:29:32 nick kernel: [    0.353635] pci 0000:00:02.6: Adding to iommu group 6
+Nov  6 20:29:32 nick kernel: [    0.353642] pci 0000:00:02.7: Adding to iommu group 7
+Nov  6 20:29:32 nick kernel: [    0.353650] pci 0000:00:08.0: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.353654] pci 0000:00:08.1: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.353661] pci 0000:00:14.0: Adding to iommu group 9
+Nov  6 20:29:32 nick kernel: [    0.353666] pci 0000:00:14.3: Adding to iommu group 9
+Nov  6 20:29:32 nick kernel: [    0.353682] pci 0000:00:18.0: Adding to iommu group 10
+Nov  6 20:29:32 nick kernel: [    0.353688] pci 0000:00:18.1: Adding to iommu group 10
+Nov  6 20:29:32 nick kernel: [    0.353693] pci 0000:00:18.2: Adding to iommu group 10
+Nov  6 20:29:32 nick kernel: [    0.353698] pci 0000:00:18.3: Adding to iommu group 10
+Nov  6 20:29:32 nick kernel: [    0.353704] pci 0000:00:18.4: Adding to iommu group 10
+Nov  6 20:29:32 nick kernel: [    0.353709] pci 0000:00:18.5: Adding to iommu group 10
+Nov  6 20:29:32 nick kernel: [    0.353715] pci 0000:00:18.6: Adding to iommu group 10
+Nov  6 20:29:32 nick kernel: [    0.353719] pci 0000:00:18.7: Adding to iommu group 10
+Nov  6 20:29:32 nick kernel: [    0.353726] pci 0000:01:00.0: Adding to iommu group 11
+Nov  6 20:29:32 nick kernel: [    0.353733] pci 0000:02:00.0: Adding to iommu group 12
+Nov  6 20:29:32 nick kernel: [    0.353740] pci 0000:03:00.0: Adding to iommu group 13
+Nov  6 20:29:32 nick kernel: [    0.353747] pci 0000:04:00.0: Adding to iommu group 14
+Nov  6 20:29:32 nick kernel: [    0.353753] pci 0000:05:00.0: Adding to iommu group 15
+Nov  6 20:29:32 nick kernel: [    0.353759] pci 0000:06:00.0: Adding to iommu group 16
+Nov  6 20:29:32 nick kernel: [    0.353771] pci 0000:07:00.0: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.353774] pci 0000:07:00.1: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.353777] pci 0000:07:00.2: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.353779] pci 0000:07:00.3: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.353783] pci 0000:07:00.4: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.353786] pci 0000:07:00.5: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.353789] pci 0000:07:00.6: Adding to iommu group 8
+Nov  6 20:29:32 nick kernel: [    0.357807] pci 0000:00:00.2: AMD-Vi: Found IOMMU cap 0x40
+Nov  6 20:29:32 nick kernel: [    0.357812] AMD-Vi: Extended features (0x206d73ef22254ade): PPR X2APIC NX GT IA GA PC GA_vAPIC
+Nov  6 20:29:32 nick kernel: [    0.357817] AMD-Vi: Interrupt remapping enabled
+Nov  6 20:29:32 nick kernel: [    0.357818] AMD-Vi: Virtual APIC enabled
+Nov  6 20:29:32 nick kernel: [    0.357818] AMD-Vi: X2APIC enabled
+Nov  6 20:29:32 nick kernel: [    0.395284] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Nov  6 20:29:32 nick kernel: [    0.395288] software IO TLB: mapped [mem 0x00000000bbfaf000-0x00000000bffaf000] (64MB)
+Nov  6 20:29:32 nick kernel: [    0.395371] amd_uncore: 4  amd_df counters detected
+Nov  6 20:29:32 nick kernel: [    0.395377] amd_uncore: 6  amd_l3 counters detected
+Nov  6 20:29:32 nick kernel: [    0.395901] LVT offset 0 assigned for vector 0x400
+Nov  6 20:29:32 nick kernel: [    0.396104] perf: AMD IBS detected (0x000003ff)
+Nov  6 20:29:32 nick kernel: [    0.396112] perf/amd_iommu: Detected AMD IOMMU #0 (2 banks, 4 counters/bank).
+Nov  6 20:29:32 nick kernel: [    0.396567] Initialise system trusted keyrings
+Nov  6 20:29:32 nick kernel: [    0.396579] Key type blacklist registered
+Nov  6 20:29:32 nick kernel: [    0.396617] workingset: timestamp_bits=36 max_order=22 bucket_order=0
+Nov  6 20:29:32 nick kernel: [    0.397176] zbud: loaded
+Nov  6 20:29:32 nick kernel: [    0.397350] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Nov  6 20:29:32 nick kernel: [    0.397450] fuse: init (API version 7.34)
+Nov  6 20:29:32 nick kernel: [    0.397597] integrity: Platform Keyring initialized
+Nov  6 20:29:32 nick kernel: [    0.400059] Key type asymmetric registered
+Nov  6 20:29:32 nick kernel: [    0.400060] Asymmetric key parser 'x509' registered
+Nov  6 20:29:32 nick kernel: [    0.400065] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+Nov  6 20:29:32 nick kernel: [    0.400108] io scheduler mq-deadline registered
+Nov  6 20:29:32 nick kernel: [    0.400839] pcieport 0000:00:02.1: PME: Signaling with IRQ 26
+Nov  6 20:29:32 nick kernel: [    0.400932] pcieport 0000:00:02.2: PME: Signaling with IRQ 27
+Nov  6 20:29:32 nick kernel: [    0.401017] pcieport 0000:00:02.3: PME: Signaling with IRQ 28
+Nov  6 20:29:32 nick kernel: [    0.401029] pcieport 0000:00:02.3: pciehp: Slot #0 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ IbPresDis- LLActRep+
+Nov  6 20:29:32 nick kernel: [    0.401148] pcieport 0000:00:02.4: PME: Signaling with IRQ 29
+Nov  6 20:29:32 nick kernel: [    0.401227] pcieport 0000:00:02.6: PME: Signaling with IRQ 30
+Nov  6 20:29:32 nick kernel: [    0.401301] pcieport 0000:00:02.7: PME: Signaling with IRQ 31
+Nov  6 20:29:32 nick kernel: [    0.401377] pcieport 0000:00:08.1: PME: Signaling with IRQ 32
+Nov  6 20:29:32 nick kernel: [    0.401438] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Nov  6 20:29:32 nick kernel: [    0.401470] efifb: probing for efifb
+Nov  6 20:29:32 nick kernel: [    0.401482] efifb: showing boot graphics
+Nov  6 20:29:32 nick kernel: [    0.403126] efifb: framebuffer at 0x460000000, using 8100k, total 8100k
+Nov  6 20:29:32 nick kernel: [    0.403127] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+Nov  6 20:29:32 nick kernel: [    0.403128] efifb: scrolling: redraw
+Nov  6 20:29:32 nick kernel: [    0.403128] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Nov  6 20:29:32 nick kernel: [    0.403159] fbcon: Deferring console take-over
+Nov  6 20:29:32 nick kernel: [    0.403160] fb0: EFI VGA frame buffer device
+Nov  6 20:29:32 nick kernel: [    0.406268] ACPI: AC: AC Adapter [AC] (on-line)
+Nov  6 20:29:32 nick kernel: [    0.406300] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Nov  6 20:29:32 nick kernel: [    0.406320] ACPI: button: Power Button [PWRB]
+Nov  6 20:29:32 nick kernel: [    0.406343] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input1
+Nov  6 20:29:32 nick kernel: [    0.406364] ACPI: button: Lid Switch [LID]
+Nov  6 20:29:32 nick kernel: [    0.406378] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+Nov  6 20:29:32 nick kernel: [    0.406391] ACPI: button: Sleep Button [SLPB]
+Nov  6 20:29:32 nick kernel: [    0.406405] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+Nov  6 20:29:32 nick kernel: [    0.406414] ACPI: button: Power Button [PWRF]
+Nov  6 20:29:32 nick kernel: [    0.406499] smpboot: Estimated ratio of average max frequency by base frequency (times 1024): 1726
+Nov  6 20:29:32 nick kernel: [    0.406512] Monitor-Mwait will be used to enter C-1 state
+Nov  6 20:29:32 nick kernel: [    0.406516] ACPI: \_SB_.PLTF.C000: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.406592] ACPI: \_SB_.PLTF.C001: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.406703] ACPI: \_SB_.PLTF.C002: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.406799] ACPI: \_SB_.PLTF.C003: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.406894] ACPI: \_SB_.PLTF.C004: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.408174] ACPI: \_SB_.PLTF.C005: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.408347] ACPI: \_SB_.PLTF.C006: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.408499] ACPI: \_SB_.PLTF.C007: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.408611] ACPI: \_SB_.PLTF.C008: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.408742] ACPI: \_SB_.PLTF.C009: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.408870] ACPI: \_SB_.PLTF.C00A: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.409027] ACPI: \_SB_.PLTF.C00B: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.409222] ACPI: \_SB_.PLTF.C00C: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.409385] ACPI: \_SB_.PLTF.C00D: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.409545] ACPI: \_SB_.PLTF.C00E: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.409704] ACPI: \_SB_.PLTF.C00F: Found 3 idle states
+Nov  6 20:29:32 nick kernel: [    0.410069] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov  6 20:29:32 nick kernel: [    0.410677] ACPI: battery: Slot [BAT0] (battery present)
+Nov  6 20:29:32 nick kernel: [    0.411071] Linux agpgart interface v0.103
+Nov  6 20:29:32 nick kernel: [    0.414715] tpm_tis STM0125:00: 2.0 TPM (device-id 0x0, rev-id 78)
+Nov  6 20:29:32 nick kernel: [    0.566620] loop: module loaded
+Nov  6 20:29:32 nick kernel: [    0.567521] libphy: Fixed MDIO Bus: probed
+Nov  6 20:29:32 nick kernel: [    0.567524] tun: Universal TUN/TAP device driver, 1.6
+Nov  6 20:29:32 nick kernel: [    0.567656] PPP generic driver version 2.4.2
+Nov  6 20:29:32 nick kernel: [    0.567932] VFIO - User Level meta-driver version: 0.3
+Nov  6 20:29:32 nick kernel: [    0.568161] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Nov  6 20:29:32 nick kernel: [    0.568168] ehci-pci: EHCI PCI platform driver
+Nov  6 20:29:32 nick kernel: [    0.568183] ehci-platform: EHCI generic platform driver
+Nov  6 20:29:32 nick kernel: [    0.568190] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov  6 20:29:32 nick kernel: [    0.568192] ohci-pci: OHCI PCI platform driver
+Nov  6 20:29:32 nick kernel: [    0.568196] ohci-platform: OHCI generic platform driver
+Nov  6 20:29:32 nick kernel: [    0.568203] uhci_hcd: USB Universal Host Controller Interface driver
+Nov  6 20:29:32 nick kernel: [    0.568246] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Nov  6 20:29:32 nick kernel: [    0.571021] serio: i8042 KBD port at 0x60,0x64 irq 1
+Nov  6 20:29:32 nick kernel: [    0.571029] serio: i8042 AUX port at 0x60,0x64 irq 12
+Nov  6 20:29:32 nick kernel: [    0.571294] mousedev: PS/2 mouse device common for all mice
+Nov  6 20:29:32 nick kernel: [    0.571453] rtc_cmos 00:01: RTC can wake from S4
+Nov  6 20:29:32 nick kernel: [    0.571650] rtc_cmos 00:01: registered as rtc0
+Nov  6 20:29:32 nick kernel: [    0.571727] rtc_cmos 00:01: setting system clock to 2021-11-06T20:29:29 UTC (1636230569)
+Nov  6 20:29:32 nick kernel: [    0.571768] rtc_cmos 00:01: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+Nov  6 20:29:32 nick kernel: [    0.571782] i2c /dev entries driver
+Nov  6 20:29:32 nick kernel: [    0.571868] device-mapper: uevent: version 1.0.3
+Nov  6 20:29:32 nick kernel: [    0.571898] device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+Nov  6 20:29:32 nick kernel: [    0.571927] platform eisa.0: Probing EISA bus 0
+Nov  6 20:29:32 nick kernel: [    0.571929] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Nov  6 20:29:32 nick kernel: [    0.571930] platform eisa.0: Cannot allocate resource for EISA slot 1
+Nov  6 20:29:32 nick kernel: [    0.571931] platform eisa.0: Cannot allocate resource for EISA slot 2
+Nov  6 20:29:32 nick kernel: [    0.571932] platform eisa.0: Cannot allocate resource for EISA slot 3
+Nov  6 20:29:32 nick kernel: [    0.571932] platform eisa.0: Cannot allocate resource for EISA slot 4
+Nov  6 20:29:32 nick kernel: [    0.571933] platform eisa.0: Cannot allocate resource for EISA slot 5
+Nov  6 20:29:32 nick kernel: [    0.571933] platform eisa.0: Cannot allocate resource for EISA slot 6
+Nov  6 20:29:32 nick kernel: [    0.571933] platform eisa.0: Cannot allocate resource for EISA slot 7
+Nov  6 20:29:32 nick kernel: [    0.571934] platform eisa.0: Cannot allocate resource for EISA slot 8
+Nov  6 20:29:32 nick kernel: [    0.571934] platform eisa.0: EISA: Detected 0 cards
+Nov  6 20:29:32 nick kernel: [    0.572400] ledtrig-cpu: registered to indicate activity on CPUs
+Nov  6 20:29:32 nick kernel: [    0.572408] EFI Variables Facility v0.08 2004-May-17
+Nov  6 20:29:32 nick kernel: [    0.579319] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
+Nov  6 20:29:32 nick kernel: [    0.605979] drop_monitor: Initializing network drop monitor service
+Nov  6 20:29:32 nick kernel: [    0.606122] NET: Registered protocol family 10
+Nov  6 20:29:32 nick kernel: [    0.689247] Freeing initrd memory: 41936K
+Nov  6 20:29:32 nick kernel: [    0.694642] Segment Routing with IPv6
+Nov  6 20:29:32 nick kernel: [    0.694674] NET: Registered protocol family 17
+Nov  6 20:29:32 nick kernel: [    0.694776] Key type dns_resolver registered
+Nov  6 20:29:32 nick kernel: [    0.696089] microcode: CPU0: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696098] microcode: CPU1: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696121] microcode: CPU2: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696142] microcode: CPU3: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696166] microcode: CPU4: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696184] microcode: CPU5: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696206] microcode: CPU6: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696222] microcode: CPU7: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696245] microcode: CPU8: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696263] microcode: CPU9: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696287] microcode: CPU10: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696304] microcode: CPU11: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696327] microcode: CPU12: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696345] microcode: CPU13: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696356] microcode: CPU14: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696370] microcode: CPU15: patch_level=0x0a50000c
+Nov  6 20:29:32 nick kernel: [    0.696441] microcode: Microcode Update Driver: v2.2.
+Nov  6 20:29:32 nick kernel: [    0.696786] resctrl: L3 allocation detected
+Nov  6 20:29:32 nick kernel: [    0.696789] resctrl: L3DATA allocation detected
+Nov  6 20:29:32 nick kernel: [    0.696789] resctrl: L3CODE allocation detected
+Nov  6 20:29:32 nick kernel: [    0.696790] resctrl: MB allocation detected
+Nov  6 20:29:32 nick kernel: [    0.696790] resctrl: L3 monitoring detected
+Nov  6 20:29:32 nick kernel: [    0.696795] IPI shorthand broadcast: enabled
+Nov  6 20:29:32 nick kernel: [    0.696806] sched_clock: Marking stable (696465900, 306585)->(700495813, -3723328)
+Nov  6 20:29:32 nick kernel: [    0.697130] registered taskstats version 1
+Nov  6 20:29:32 nick kernel: [    0.697144] Loading compiled-in X.509 certificates
+Nov  6 20:29:32 nick kernel: [    0.697689] Loaded X.509 cert 'Build time autogenerated kernel key: 16f26d8c73bddccd08c76913af1726daac9c6b6a'
+Nov  6 20:29:32 nick kernel: [    0.698029] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Nov  6 20:29:32 nick kernel: [    0.698355] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Nov  6 20:29:32 nick kernel: [    0.698357] blacklist: Loading compiled-in revocation X.509 certificates
+Nov  6 20:29:32 nick kernel: [    0.698369] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Nov  6 20:29:32 nick kernel: [    0.698935] zswap: loaded using pool lzo/zbud
+Nov  6 20:29:32 nick kernel: [    0.699347] Key type ._fscrypt registered
+Nov  6 20:29:32 nick kernel: [    0.699349] Key type .fscrypt registered
+Nov  6 20:29:32 nick kernel: [    0.699349] Key type fscrypt-provisioning registered
+Nov  6 20:29:32 nick kernel: [    0.699541] Key type trusted registered
+Nov  6 20:29:32 nick kernel: [    0.701697] Key type encrypted registered
+Nov  6 20:29:32 nick kernel: [    0.701706] AppArmor: AppArmor sha1 policy hashing enabled
+Nov  6 20:29:32 nick kernel: [    0.702462] integrity: Loading X.509 certificate: UEFI:db
+Nov  6 20:29:32 nick kernel: [    0.702489] integrity: Loaded X.509 cert 'Lenovo Ltd.: ThinkPad Product CA 2012: 838b1f54c1550463f45f98700640f11069265949'
+Nov  6 20:29:32 nick kernel: [    0.702490] integrity: Loading X.509 certificate: UEFI:db
+Nov  6 20:29:32 nick kernel: [    0.702498] integrity: Loaded X.509 cert 'Lenovo(Beijing)Ltd: swqagent: 24b0bd0836b2f545edea93e058bd3a3c5a8f6a49'
+Nov  6 20:29:32 nick kernel: [    0.702498] integrity: Loading X.509 certificate: UEFI:db
+Nov  6 20:29:32 nick kernel: [    0.702505] integrity: Loaded X.509 cert 'Lenovo UEFI CA 2014: 4b91a68732eaefdd2c8ffffc6b027ec3449e9c8f'
+Nov  6 20:29:32 nick kernel: [    0.702505] integrity: Loading X.509 certificate: UEFI:db
+Nov  6 20:29:32 nick kernel: [    0.702516] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+Nov  6 20:29:32 nick kernel: [    0.702516] integrity: Loading X.509 certificate: UEFI:db
+Nov  6 20:29:32 nick kernel: [    0.702537] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+Nov  6 20:29:32 nick kernel: [    0.703313] integrity: Revoking X.509 certificate: UEFI:dbx
+Nov  6 20:29:32 nick kernel: [    0.703341] blacklist: Revoked X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Nov  6 20:29:32 nick kernel: [    0.703342] integrity: Revoking X.509 certificate: UEFI:dbx
+Nov  6 20:29:32 nick kernel: [    0.703350] blacklist: Revoked X.509 cert 'Debian Secure Boot Signer: 00a7468def'
+Nov  6 20:29:32 nick kernel: [    0.703847] integrity: Loading X.509 certificate: UEFI:MokListRT (MOKvar table)
+Nov  6 20:29:32 nick kernel: [    0.704136] integrity: Loaded X.509 cert 'Canonical Ltd. Master Certificate Authority: ad91990bc22ab1f517048c23b6655a268e345a63'
+Nov  6 20:29:32 nick kernel: [    0.704143] Loading compiled-in module X.509 certificates
+Nov  6 20:29:32 nick kernel: [    0.704515] Loaded X.509 cert 'Build time autogenerated kernel key: 16f26d8c73bddccd08c76913af1726daac9c6b6a'
+Nov  6 20:29:32 nick kernel: [    0.704516] ima: Allocated hash algorithm: sha1
+Nov  6 20:29:32 nick kernel: [    0.746740] ima: No architecture policies found
+Nov  6 20:29:32 nick kernel: [    0.746768] evm: Initialising EVM extended attributes:
+Nov  6 20:29:32 nick kernel: [    0.746770] evm: security.selinux
+Nov  6 20:29:32 nick kernel: [    0.746772] evm: security.SMACK64
+Nov  6 20:29:32 nick kernel: [    0.746773] evm: security.SMACK64EXEC
+Nov  6 20:29:32 nick kernel: [    0.746774] evm: security.SMACK64TRANSMUTE
+Nov  6 20:29:32 nick kernel: [    0.746775] evm: security.SMACK64MMAP
+Nov  6 20:29:32 nick kernel: [    0.746776] evm: security.apparmor
+Nov  6 20:29:32 nick kernel: [    0.746777] evm: security.ima
+Nov  6 20:29:32 nick kernel: [    0.746778] evm: security.capability
+Nov  6 20:29:32 nick kernel: [    0.746779] evm: HMAC attrs: 0x1
+Nov  6 20:29:32 nick kernel: [    0.747424] PM:   Magic number: 13:529:497
+Nov  6 20:29:32 nick kernel: [    0.750152] RAS: Correctable Errors collector initialized.
+Nov  6 20:29:32 nick kernel: [    0.751136] Freeing unused decrypted memory: 2036K
+Nov  6 20:29:32 nick kernel: [    0.751656] Freeing unused kernel image (initmem) memory: 2860K
+Nov  6 20:29:32 nick kernel: [    0.778389] Write protecting the kernel read-only data: 30720k
+Nov  6 20:29:32 nick kernel: [    0.779154] Freeing unused kernel image (text/rodata gap) memory: 2036K
+Nov  6 20:29:32 nick kernel: [    0.779755] Freeing unused kernel image (rodata/data gap) memory: 1788K
+Nov  6 20:29:32 nick kernel: [    0.801835] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Nov  6 20:29:32 nick kernel: [    0.801842] Run /init as init process
+Nov  6 20:29:32 nick kernel: [    0.801843]   with arguments:
+Nov  6 20:29:32 nick kernel: [    0.801844]     /init
+Nov  6 20:29:32 nick kernel: [    0.801845]     splash
+Nov  6 20:29:32 nick kernel: [    0.801845]   with environment:
+Nov  6 20:29:32 nick kernel: [    0.801846]     HOME=/
+Nov  6 20:29:32 nick kernel: [    0.801846]     TERM=linux
+Nov  6 20:29:32 nick kernel: [    0.801846]     BOOT_IMAGE=/boot/vmlinuz-5.13.0-20-generic
+Nov  6 20:29:32 nick kernel: [    0.872717] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xff00, revision 15
+Nov  6 20:29:32 nick kernel: [    0.872740] piix4_smbus 0000:00:14.0: Using register 0x02 for SMBus port selection
+Nov  6 20:29:32 nick kernel: [    0.872994] sdhci: Secure Digital Host Controller Interface driver
+Nov  6 20:29:32 nick kernel: [    0.873000] sdhci: Copyright(c) Pierre Ossman
+Nov  6 20:29:32 nick kernel: [    0.874484] xhci_hcd 0000:06:00.0: failed to load firmware renesas_usb_fw.mem, fallback to ROM
+Nov  6 20:29:32 nick kernel: [    0.874704] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+Nov  6 20:29:32 nick kernel: [    0.875146] xhci_hcd 0000:06:00.0: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.875163] xhci_hcd 0000:06:00.0: new USB bus registered, assigned bus number 1
+Nov  6 20:29:32 nick kernel: [    0.875193] xhci_hcd 0000:06:00.0: Zeroing 64bit base registers, expecting fault
+Nov  6 20:29:32 nick kernel: [    0.875412] r8169 0000:02:00.0: can't disable ASPM; OS doesn't have ASPM control
+Nov  6 20:29:32 nick kernel: [    0.876166] nvme 0000:01:00.0: platform quirk: setting simple suspend
+Nov  6 20:29:32 nick kernel: [    0.876343] nvme nvme0: pci function 0000:01:00.0
+Nov  6 20:29:32 nick kernel: [    0.876887] sdhci-pci 0000:04:00.0: SDHCI controller found [17a0:9750] (rev 1)
+Nov  6 20:29:32 nick kernel: [    0.880096] sdhci-pci 0000:04:00.0: enabling device (0000 -> 0002)
+Nov  6 20:29:32 nick kernel: [    0.886662] acpi PNP0C14:01: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+Nov  6 20:29:32 nick kernel: [    0.887451] acpi PNP0C14:02: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+Nov  6 20:29:32 nick kernel: [    0.887829] acpi PNP0C14:03: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+Nov  6 20:29:32 nick kernel: [    0.888174] acpi PNP0C14:04: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+Nov  6 20:29:32 nick kernel: [    0.891392] acpi device:1a: registered as cooling_device16
+Nov  6 20:29:32 nick kernel: [    0.891580] acpi PNP0C14:05: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+Nov  6 20:29:32 nick kernel: [    0.891674] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/LNXVIDEO:00/input/input7
+Nov  6 20:29:32 nick kernel: [    0.891752] piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xff20
+Nov  6 20:29:32 nick kernel: [    0.891869] acpi PNP0C14:06: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+Nov  6 20:29:32 nick kernel: [    0.916621] libphy: r8169: probed
+Nov  6 20:29:32 nick kernel: [    0.926143] r8169 0000:02:00.0 eth0: RTL8168ep/8111ep, 38:f3:ab:9b:57:a1, XID 502, IRQ 38
+Nov  6 20:29:32 nick kernel: [    0.926153] r8169 0000:02:00.0 eth0: jumbo features [frames: 9194 bytes, tx checksumming: ko]
+Nov  6 20:29:32 nick kernel: [    0.926265] r8169 0000:05:00.0: can't disable ASPM; OS doesn't have ASPM control
+Nov  6 20:29:32 nick kernel: [    0.929295] r8169 0000:05:00.0: enabling device (0000 -> 0003)
+Nov  6 20:29:32 nick kernel: [    0.945126] xhci_hcd 0000:06:00.0: hcc params 0x014051cf hci version 0x100 quirks 0x0000001100000090
+Nov  6 20:29:32 nick kernel: [    0.954712] mmc0: SDHCI controller on PCI [0000:04:00.0] using ADMA
+Nov  6 20:29:32 nick kernel: [    0.961635] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.13
+Nov  6 20:29:32 nick kernel: [    0.961652] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  6 20:29:32 nick kernel: [    0.961654] usb usb1: Product: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.961656] usb usb1: Manufacturer: Linux 5.13.0-20-generic xhci-hcd
+Nov  6 20:29:32 nick kernel: [    0.961659] usb usb1: SerialNumber: 0000:06:00.0
+Nov  6 20:29:32 nick kernel: [    0.961956] hub 1-0:1.0: USB hub found
+Nov  6 20:29:32 nick kernel: [    0.961969] hub 1-0:1.0: 2 ports detected
+Nov  6 20:29:32 nick kernel: [    0.962196] xhci_hcd 0000:06:00.0: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.962200] xhci_hcd 0000:06:00.0: new USB bus registered, assigned bus number 2
+Nov  6 20:29:32 nick kernel: [    0.962204] xhci_hcd 0000:06:00.0: Host supports USB 3.0 SuperSpeed
+Nov  6 20:29:32 nick kernel: [    0.962247] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+Nov  6 20:29:32 nick kernel: [    0.962261] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.13
+Nov  6 20:29:32 nick kernel: [    0.962263] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  6 20:29:32 nick kernel: [    0.962264] usb usb2: Product: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.962265] usb usb2: Manufacturer: Linux 5.13.0-20-generic xhci-hcd
+Nov  6 20:29:32 nick kernel: [    0.962266] usb usb2: SerialNumber: 0000:06:00.0
+Nov  6 20:29:32 nick kernel: [    0.962407] hub 2-0:1.0: USB hub found
+Nov  6 20:29:32 nick kernel: [    0.962415] hub 2-0:1.0: 2 ports detected
+Nov  6 20:29:32 nick kernel: [    0.962743] xhci_hcd 0000:07:00.3: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.962748] xhci_hcd 0000:07:00.3: new USB bus registered, assigned bus number 3
+Nov  6 20:29:32 nick kernel: [    0.962805] nvme nvme0: 16/0/0 default/read/poll queues
+Nov  6 20:29:32 nick kernel: [    0.962845] xhci_hcd 0000:07:00.3: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+Nov  6 20:29:32 nick kernel: [    0.963235] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.13
+Nov  6 20:29:32 nick kernel: [    0.963237] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  6 20:29:32 nick kernel: [    0.963238] usb usb3: Product: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.963238] usb usb3: Manufacturer: Linux 5.13.0-20-generic xhci-hcd
+Nov  6 20:29:32 nick kernel: [    0.963239] usb usb3: SerialNumber: 0000:07:00.3
+Nov  6 20:29:32 nick kernel: [    0.963578] hub 3-0:1.0: USB hub found
+Nov  6 20:29:32 nick kernel: [    0.963585] hub 3-0:1.0: 4 ports detected
+Nov  6 20:29:32 nick kernel: [    0.964041] xhci_hcd 0000:07:00.3: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.964048] xhci_hcd 0000:07:00.3: new USB bus registered, assigned bus number 4
+Nov  6 20:29:32 nick kernel: [    0.964051] xhci_hcd 0000:07:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+Nov  6 20:29:32 nick kernel: [    0.964067] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+Nov  6 20:29:32 nick kernel: [    0.964085] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.13
+Nov  6 20:29:32 nick kernel: [    0.964086] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  6 20:29:32 nick kernel: [    0.964087] usb usb4: Product: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.964088] usb usb4: Manufacturer: Linux 5.13.0-20-generic xhci-hcd
+Nov  6 20:29:32 nick kernel: [    0.964089] usb usb4: SerialNumber: 0000:07:00.3
+Nov  6 20:29:32 nick kernel: [    0.964366] hub 4-0:1.0: USB hub found
+Nov  6 20:29:32 nick kernel: [    0.964372] hub 4-0:1.0: 2 ports detected
+Nov  6 20:29:32 nick kernel: [    0.964756] xhci_hcd 0000:07:00.4: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.964762] xhci_hcd 0000:07:00.4: new USB bus registered, assigned bus number 5
+Nov  6 20:29:32 nick kernel: [    0.964846] xhci_hcd 0000:07:00.4: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+Nov  6 20:29:32 nick kernel: [    0.965125] usb usb5: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.13
+Nov  6 20:29:32 nick kernel: [    0.965127] usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  6 20:29:32 nick kernel: [    0.965128] usb usb5: Product: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.965129] usb usb5: Manufacturer: Linux 5.13.0-20-generic xhci-hcd
+Nov  6 20:29:32 nick kernel: [    0.965129] usb usb5: SerialNumber: 0000:07:00.4
+Nov  6 20:29:32 nick kernel: [    0.965265] hub 5-0:1.0: USB hub found
+Nov  6 20:29:32 nick kernel: [    0.965271] hub 5-0:1.0: 4 ports detected
+Nov  6 20:29:32 nick kernel: [    0.965439] libphy: r8169: probed
+Nov  6 20:29:32 nick kernel: [    0.965477] xhci_hcd 0000:07:00.4: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.965480] xhci_hcd 0000:07:00.4: new USB bus registered, assigned bus number 6
+Nov  6 20:29:32 nick kernel: [    0.965483] xhci_hcd 0000:07:00.4: Host supports USB 3.1 Enhanced SuperSpeed
+Nov  6 20:29:32 nick kernel: [    0.965494] usb usb6: We don't know the algorithms for LPM for this host, disabling LPM.
+Nov  6 20:29:32 nick kernel: [    0.965506] usb usb6: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.13
+Nov  6 20:29:32 nick kernel: [    0.965506] usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  6 20:29:32 nick kernel: [    0.965507] usb usb6: Product: xHCI Host Controller
+Nov  6 20:29:32 nick kernel: [    0.965508] usb usb6: Manufacturer: Linux 5.13.0-20-generic xhci-hcd
+Nov  6 20:29:32 nick kernel: [    0.965508] usb usb6: SerialNumber: 0000:07:00.4
+Nov  6 20:29:32 nick kernel: [    0.965572] r8169 0000:05:00.0 eth1: RTL8168h/8111h, 38:f3:ab:9b:57:a0, XID 541, IRQ 74
+Nov  6 20:29:32 nick kernel: [    0.965574] r8169 0000:05:00.0 eth1: jumbo features [frames: 9194 bytes, tx checksumming: ko]
+Nov  6 20:29:32 nick kernel: [    0.965598] hub 6-0:1.0: USB hub found
+Nov  6 20:29:32 nick kernel: [    0.965612] hub 6-0:1.0: 2 ports detected
+Nov  6 20:29:32 nick kernel: [    0.966762]  nvme0n1: p1 p2 p3 p4 p5
+Nov  6 20:29:32 nick kernel: [    0.967705] r8169 0000:02:00.0 enp2s0f0: renamed from eth0
+Nov  6 20:29:32 nick kernel: [    0.984813] r8169 0000:05:00.0 enp5s0: renamed from eth1
+Nov  6 20:29:32 nick kernel: [    1.283297] usb 1-2: new high-speed USB device number 2 using xhci_hcd
+Nov  6 20:29:32 nick kernel: [    1.295784] usb 5-1: new high-speed USB device number 2 using xhci_hcd
+Nov  6 20:29:32 nick kernel: [    1.399175] tsc: Refined TSC clocksource calibration: 1911.189 MHz
+Nov  6 20:29:32 nick kernel: [    1.399186] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x3718ec0f926, max_idle_ns: 881590806814 ns
+Nov  6 20:29:32 nick kernel: [    1.399236] clocksource: Switched to clocksource tsc
+Nov  6 20:29:32 nick kernel: [    1.437529] usb 1-2: New USB device found, idVendor=04f2, idProduct=b6d0, bcdDevice=59.18
+Nov  6 20:29:32 nick kernel: [    1.437536] usb 1-2: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+Nov  6 20:29:32 nick kernel: [    1.437538] usb 1-2: Product: Integrated Camera
+Nov  6 20:29:32 nick kernel: [    1.437540] usb 1-2: Manufacturer: Chicony Electronics Co.,Ltd.
+Nov  6 20:29:32 nick kernel: [    1.437541] usb 1-2: SerialNumber: 0001
+Nov  6 20:29:32 nick kernel: [    1.460475] fbcon: Taking over console
+Nov  6 20:29:32 nick kernel: [    1.460534] Console: switching to colour frame buffer device 240x67
+Nov  6 20:29:32 nick kernel: [    1.787848] usb 5-1: New USB device found, idVendor=2109, idProduct=0100, bcdDevice= 3.00
+Nov  6 20:29:32 nick kernel: [    1.787853] usb 5-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov  6 20:29:32 nick kernel: [    1.787854] usb 5-1: Product: USB-C dongle
+Nov  6 20:29:32 nick kernel: [    1.787855] usb 5-1: Manufacturer: VIA Technologies Inc.         
+Nov  6 20:29:32 nick kernel: [    1.787856] usb 5-1: SerialNumber: 0000000000000001
+Nov  6 20:29:32 nick kernel: [    1.802645] psmouse serio1: synaptics: queried max coordinates: x [..5678], y [..4694]
+Nov  6 20:29:32 nick kernel: [    1.853524] psmouse serio1: synaptics: queried min coordinates: x [1266..], y [1162..]
+Nov  6 20:29:32 nick kernel: [    1.853532] psmouse serio1: synaptics: Your touchpad (PNP: LEN2073 PNP0f13) says it can support a different bus. If i2c-hid and hid-rmi are not used, you might want to try setting psmouse.synaptics_intertouch to 1 and report this to linux-input@vger.kernel.org.
+Nov  6 20:29:32 nick kernel: [    1.935002] psmouse serio1: synaptics: Touchpad model: 1, fw: 10.32, id: 0x1e2a1, caps: 0xf01ea3/0x940300/0x12e800/0x500000, board id: 3471, fw id: 3418235
+Nov  6 20:29:32 nick kernel: [    1.935040] psmouse serio1: synaptics: serio: Synaptics pass-through port at isa0060/serio1/input0
+Nov  6 20:29:32 nick kernel: [    1.987214] input: SynPS/2 Synaptics TouchPad as /devices/platform/i8042/serio1/input/input6
+Nov  6 20:29:32 nick kernel: [    2.091196] usb 5-3: new full-speed USB device number 3 using xhci_hcd
+Nov  6 20:29:32 nick kernel: [    2.258904] usb 5-3: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+Nov  6 20:29:32 nick kernel: [    2.258908] usb 5-3: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+Nov  6 20:29:32 nick kernel: [    2.258910] usb 5-3: SerialNumber: baae711fe407
+Nov  6 20:29:32 nick kernel: [    2.291391] EXT4-fs (nvme0n1p5): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Nov  6 20:29:32 nick kernel: [    2.395446] usb 5-4: new full-speed USB device number 4 using xhci_hcd
+Nov  6 20:29:32 nick kernel: [    2.507658] psmouse serio2: trackpoint: Elan TrackPoint firmware: 0x12, buttons: 3/3
+Nov  6 20:29:32 nick kernel: [    2.533831] EXT4-fs (nvme0n1p5): re-mounted. Opts: errors=remount-ro. Quota mode: none.
+Nov  6 20:29:32 nick kernel: [    2.538764] lp: driver loaded but no devices found
+Nov  6 20:29:32 nick kernel: [    2.541468] ppdev: user-space parallel port driver
+Nov  6 20:29:32 nick kernel: [    2.562510] usb 5-4: New USB device found, idVendor=0bda, idProduct=4852, bcdDevice= 0.00
+Nov  6 20:29:32 nick kernel: [    2.562514] usb 5-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov  6 20:29:32 nick kernel: [    2.562515] usb 5-4: Product: Bluetooth Radio
+Nov  6 20:29:32 nick kernel: [    2.562516] usb 5-4: Manufacturer: Realtek
+Nov  6 20:29:32 nick kernel: [    2.562516] usb 5-4: SerialNumber: 00e04c000001
+Nov  6 20:29:32 nick kernel: [    2.567890] loop0: detected capacity change from 0 to 203424
+Nov  6 20:29:32 nick kernel: [    2.599656] Adding 2097148k swap on /swapfile.  Priority:-2 extents:6 across:2260988k SSFS
+Nov  6 20:29:32 nick kernel: [    2.616030] loop1: detected capacity change from 0 to 8
+Nov  6 20:29:32 nick kernel: [    2.616089] loop2: detected capacity change from 0 to 311936
+Nov  6 20:29:32 nick kernel: [    2.616148] loop3: detected capacity change from 0 to 496320
+Nov  6 20:29:32 nick kernel: [    2.652188] loop4: detected capacity change from 0 to 203648
+Nov  6 20:29:32 nick kernel: [    2.656294] Bluetooth: Core ver 2.22
+Nov  6 20:29:32 nick kernel: [    2.656311] NET: Registered protocol family 31
+Nov  6 20:29:32 nick kernel: [    2.656312] Bluetooth: HCI device and connection manager initialized
+Nov  6 20:29:32 nick kernel: [    2.656318] Bluetooth: HCI socket layer initialized
+Nov  6 20:29:32 nick kernel: [    2.656320] Bluetooth: L2CAP socket layer initialized
+Nov  6 20:29:32 nick kernel: [    2.656322] Bluetooth: SCO socket layer initialized
+Nov  6 20:29:32 nick kernel: [    2.663758] usbcore: registered new interface driver btusb
+Nov  6 20:29:32 nick kernel: [    2.664744] Bluetooth: hci0: RTL: examining hci_ver=0b hci_rev=000a lmp_ver=0b lmp_subver=8852
+Nov  6 20:29:32 nick kernel: [    2.666722] Bluetooth: hci0: RTL: rom_version status=0 version=1
+Nov  6 20:29:32 nick kernel: [    2.666725] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852au_fw.bin
+Nov  6 20:29:32 nick kernel: [    2.668624] Bluetooth: hci0: RTL: loading rtl_bt/rtl8852au_config.bin
+Nov  6 20:29:32 nick kernel: [    2.668835] Bluetooth: hci0: RTL: cfg_sz 6, total sz 46195
+Nov  6 20:29:32 nick kernel: [    2.671408] loop5: detected capacity change from 0 to 337424
+Nov  6 20:29:32 nick kernel: [    2.672078] ccp 0000:07:00.2: enabling device (0000 -> 0002)
+Nov  6 20:29:32 nick kernel: [    2.672366] ccp 0000:07:00.2: ccp: unable to access the device: you might be running a broken BIOS.
+Nov  6 20:29:32 nick kernel: [    2.673485] snd_rn_pci_acp3x 0000:07:00.5: enabling device (0000 -> 0002)
+Nov  6 20:29:32 nick kernel: [    2.680580] Non-volatile memory driver v1.3
+Nov  6 20:29:32 nick kernel: [    2.682498] ccp 0000:07:00.2: tee enabled
+Nov  6 20:29:32 nick kernel: [    2.682503] ccp 0000:07:00.2: psp enabled
+Nov  6 20:29:32 nick kernel: [    2.695419] loop6: detected capacity change from 0 to 111048
+Nov  6 20:29:32 nick kernel: [    2.695722] loop7: detected capacity change from 0 to 126632
+Nov  6 20:29:32 nick kernel: [    2.733145] input: TPPS/2 Elan TrackPoint as /devices/platform/i8042/serio1/serio2/input/input8
+Nov  6 20:29:32 nick kernel: [    2.743197] mc: Linux media interface: v0.10
+Nov  6 20:29:32 nick kernel: [    2.743761] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Nov  6 20:29:32 nick kernel: [    2.747249] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+Nov  6 20:29:32 nick kernel: [    2.747254] RAPL PMU: hw unit of domain package 2^-16 Joules
+Nov  6 20:29:32 nick kernel: [    2.747461] thinkpad_acpi: ThinkPad ACPI Extras v0.26
+Nov  6 20:29:32 nick kernel: [    2.747463] thinkpad_acpi: http://ibm-acpi.sf.net/
+Nov  6 20:29:32 nick kernel: [    2.747464] thinkpad_acpi: ThinkPad BIOS R1MET42W (1.12 ), EC R1MHT42W
+Nov  6 20:29:32 nick kernel: [    2.747465] thinkpad_acpi: Lenovo ThinkPad T14 Gen 2a, model 20XK0019US
+Nov  6 20:29:32 nick kernel: [    2.747850] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Nov  6 20:29:32 nick kernel: [    2.748764] thinkpad_acpi: radio switch found; radios are enabled
+Nov  6 20:29:32 nick kernel: [    2.748781] thinkpad_acpi: This ThinkPad has standard ACPI backlight brightness control, supported by the ACPI video driver
+Nov  6 20:29:32 nick kernel: [    2.748783] thinkpad_acpi: Disabling thinkpad-acpi brightness events by default...
+Nov  6 20:29:32 nick kernel: [    2.752261] cryptd: max_cpu_qlen set to 1000
+Nov  6 20:29:32 nick kernel: [    2.753701] thinkpad_acpi: rfkill switch tpacpi_bluetooth_sw: radio is unblocked
+Nov  6 20:29:32 nick kernel: [    2.758875] videodev: Linux video capture interface: v2.00
+Nov  6 20:29:32 nick kernel: [    2.783353] pstore: Using crash dump compression: deflate
+Nov  6 20:29:32 nick kernel: [    2.783370] pstore: Registered efi as persistent store backend
+Nov  6 20:29:32 nick kernel: [    2.785010] AVX2 version of gcm_enc/dec engaged.
+Nov  6 20:29:32 nick kernel: [    2.785063] AES CTR mode by8 optimization enabled
+Nov  6 20:29:32 nick kernel: [    2.793182] snd_hda_intel 0000:07:00.1: enabling device (0000 -> 0002)
+Nov  6 20:29:32 nick kernel: [    2.793842] snd_hda_intel 0000:07:00.1: Handle vga_switcheroo audio client
+Nov  6 20:29:32 nick kernel: [    2.794670] snd_hda_intel 0000:07:00.6: enabling device (0000 -> 0002)
+Nov  6 20:29:32 nick kernel: [    2.795707] usb 1-2: Found UVC 1.10 device Integrated Camera (04f2:b6d0)
+Nov  6 20:29:32 nick kernel: [    2.816324] thinkpad_acpi: Standard ACPI backlight interface available, not loading native one
+Nov  6 20:29:32 nick kernel: [    2.822027] input: Integrated Camera: Integrated C as /devices/pci0000:00/0000:00:02.7/0000:06:00.0/usb1/1-2/1-2:1.0/input/input10
+Nov  6 20:29:32 nick kernel: [    2.823459] usb 1-2: Found UVC 1.50 device Integrated Camera (04f2:b6d0)
+Nov  6 20:29:32 nick kernel: [    2.825640] input: Integrated Camera: Integrated I as /devices/pci0000:00/0000:00:02.7/0000:06:00.0/usb1/1-2/1-2:1.2/input/input11
+Nov  6 20:29:32 nick kernel: [    2.825707] usbcore: registered new interface driver uvcvideo
+Nov  6 20:29:32 nick kernel: [    2.829432] loop8: detected capacity change from 0 to 113656
+Nov  6 20:29:32 nick kernel: [    2.845365] thinkpad_acpi: battery 1 registered (start 95, stop 100)
+Nov  6 20:29:32 nick kernel: [    2.845388] ACPI: battery: new extension: ThinkPad Battery Extension
+Nov  6 20:29:32 nick kernel: [    2.848497] input: ThinkPad Extra Buttons as /devices/platform/thinkpad_acpi/input/input9
+Nov  6 20:29:32 nick kernel: [    2.883686] AMD-Vi: AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+Nov  6 20:29:32 nick kernel: [    2.889339] input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:07:00.1/sound/card0/input12
+Nov  6 20:29:32 nick kernel: [    2.889403] input: HD-Audio Generic HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:08.1/0000:07:00.1/sound/card0/input13
+Nov  6 20:29:32 nick kernel: [    2.889453] input: HD-Audio Generic HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:08.1/0000:07:00.1/sound/card0/input14
+Nov  6 20:29:32 nick kernel: [    2.889492] input: HD-Audio Generic HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:08.1/0000:07:00.1/sound/card0/input15
+Nov  6 20:29:32 nick kernel: [    2.903791] snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC257: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+Nov  6 20:29:32 nick kernel: [    2.903803] snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Nov  6 20:29:32 nick kernel: [    2.903805] snd_hda_codec_realtek hdaudioC1D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+Nov  6 20:29:32 nick kernel: [    2.903806] snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+Nov  6 20:29:32 nick kernel: [    2.903807] snd_hda_codec_realtek hdaudioC1D0:    inputs:
+Nov  6 20:29:32 nick kernel: [    2.903809] snd_hda_codec_realtek hdaudioC1D0:      Mic=0x19
+Nov  6 20:29:32 nick kernel: [    2.911709] rtw89core: loading out-of-tree module taints kernel.
+Nov  6 20:29:32 nick kernel: [    2.912088] rtw89core: module verification failed: signature and/or required key missing - tainting kernel
+Nov  6 20:29:32 nick kernel: [    2.915489] rtw89_pci 0000:03:00.0: enabling device (0000 -> 0003)
+Nov  6 20:29:32 nick kernel: [    2.917715] rtw89_pci 0000:03:00.0: Firmware version 0.13.8.0, cmd version 0, type 1
+Nov  6 20:29:32 nick kernel: [    2.917719] rtw89_pci 0000:03:00.0: Firmware version 0.13.8.0, cmd version 0, type 3
+Nov  6 20:29:32 nick kernel: [    2.917723] rtw89_pci 0000:03:00.0: MAC has already powered on
+Nov  6 20:29:32 nick kernel: [    2.923353] acp_pdm_mach acp_pdm_mach.0: snd_soc_register_card(acp) failed: -517
+Nov  6 20:29:32 nick kernel: [    2.938358] rtw89_pci 0000:03:00.0: chip rfe_type is 1
+Nov  6 20:29:32 nick kernel: [    2.939522] kvm: Nested Virtualization enabled
+Nov  6 20:29:32 nick kernel: [    2.939525] SVM: kvm: Nested Paging enabled
+Nov  6 20:29:32 nick kernel: [    2.939538] SVM: Virtual VMLOAD VMSAVE supported
+Nov  6 20:29:32 nick kernel: [    2.939539] SVM: Virtual GIF supported
+Nov  6 20:29:32 nick kernel: [    2.945861] rtw89_pci 0000:03:00.0 wlp3s0: renamed from wlan0
+Nov  6 20:29:32 nick kernel: [    2.948504] MCE: In-kernel MCE decoding enabled.
+Nov  6 20:29:32 nick kernel: [    2.957785] input: HD-Audio Generic Mic as /devices/pci0000:00/0000:00:08.1/0000:07:00.6/sound/card1/input16
+Nov  6 20:29:32 nick kernel: [    2.957821] input: HD-Audio Generic Headphone as /devices/pci0000:00/0000:00:08.1/0000:07:00.6/sound/card1/input17
+Nov  6 20:29:32 nick kernel: [    3.028147] [drm] amdgpu kernel modesetting enabled.
+Nov  6 20:29:32 nick kernel: [    3.028436] amdgpu: Virtual CRAT table created for CPU
+Nov  6 20:29:32 nick kernel: [    3.028463] amdgpu: Topology: Add CPU node
+Nov  6 20:29:32 nick kernel: [    3.028598] checking generic (460000000 7e9000) vs hw (460000000 10000000)
+Nov  6 20:29:32 nick kernel: [    3.028600] fb0: switching to amdgpudrmfb from EFI VGA
+Nov  6 20:29:32 nick kernel: [    3.028810] Console: switching to colour dummy device 80x25
+Nov  6 20:29:32 nick kernel: [    3.028978] amdgpu 0000:07:00.0: vgaarb: deactivate vga console
+Nov  6 20:29:32 nick kernel: [    3.029063] amdgpu 0000:07:00.0: enabling device (0006 -> 0007)
+Nov  6 20:29:32 nick kernel: [    3.029215] [drm] initializing kernel modesetting (RENOIR 0x1002:0x1638 0x17AA:0x5094 0xD1).
+Nov  6 20:29:32 nick kernel: [    3.029220] amdgpu 0000:07:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled
+Nov  6 20:29:32 nick kernel: [    3.043549] loop9: detected capacity change from 0 to 307976
+Nov  6 20:29:32 nick kernel: [    3.058267] intel_rapl_common: Found RAPL domain package
+Nov  6 20:29:32 nick kernel: [    3.058270] intel_rapl_common: Found RAPL domain core
+Nov  6 20:29:32 nick kernel: [    3.081553] Bluetooth: hci0: RTL: fw version 0xd9a91d69
+Nov  6 20:29:32 nick kernel: [    3.163465] loop10: detected capacity change from 0 to 133552
+Nov  6 20:29:32 nick kernel: [    3.208076] [drm] register mmio base: 0xFD300000
+Nov  6 20:29:32 nick kernel: [    3.208082] [drm] register mmio size: 524288
+Nov  6 20:29:32 nick kernel: [    3.208086] [drm] PCIE atomic ops is not supported
+Nov  6 20:29:32 nick kernel: [    3.209424] [drm] add ip block number 0 <soc15_common>
+Nov  6 20:29:32 nick kernel: [    3.209427] [drm] add ip block number 1 <gmc_v9_0>
+Nov  6 20:29:32 nick kernel: [    3.209428] [drm] add ip block number 2 <vega10_ih>
+Nov  6 20:29:32 nick kernel: [    3.209429] [drm] add ip block number 3 <psp>
+Nov  6 20:29:32 nick kernel: [    3.209431] [drm] add ip block number 4 <smu>
+Nov  6 20:29:32 nick kernel: [    3.209432] [drm] add ip block number 5 <gfx_v9_0>
+Nov  6 20:29:32 nick kernel: [    3.209433] [drm] add ip block number 6 <sdma_v4_0>
+Nov  6 20:29:32 nick kernel: [    3.209434] [drm] add ip block number 7 <dm>
+Nov  6 20:29:32 nick kernel: [    3.209435] [drm] add ip block number 8 <vcn_v2_0>
+Nov  6 20:29:32 nick kernel: [    3.209436] [drm] add ip block number 9 <jpeg_v2_0>
+Nov  6 20:29:32 nick kernel: [    3.209451] amdgpu 0000:07:00.0: amdgpu: Fetched VBIOS from VFCT
+Nov  6 20:29:32 nick kernel: [    3.209455] amdgpu: ATOM BIOS: 113-CEZANNE-018
+Nov  6 20:29:32 nick kernel: [    3.209575] audit: type=1400 audit(1636230572.131:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=686 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.209586] audit: type=1400 audit(1636230572.131:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=677 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.209654] audit: type=1400 audit(1636230572.131:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=684 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.210183] [drm] VCN decode is enabled in VM mode
+Nov  6 20:29:32 nick kernel: [    3.210185] [drm] VCN encode is enabled in VM mode
+Nov  6 20:29:32 nick kernel: [    3.210186] [drm] JPEG decode is enabled in VM mode
+Nov  6 20:29:32 nick kernel: [    3.210241] [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+Nov  6 20:29:32 nick kernel: [    3.210249] amdgpu 0000:07:00.0: amdgpu: VRAM: 1024M 0x000000F400000000 - 0x000000F43FFFFFFF (1024M used)
+Nov  6 20:29:32 nick kernel: [    3.210253] amdgpu 0000:07:00.0: amdgpu: GART: 1024M 0x0000000000000000 - 0x000000003FFFFFFF
+Nov  6 20:29:32 nick kernel: [    3.210255] amdgpu 0000:07:00.0: amdgpu: AGP: 267419648M 0x000000F800000000 - 0x0000FFFFFFFFFFFF
+Nov  6 20:29:32 nick kernel: [    3.210263] [drm] Detected VRAM RAM=1024M, BAR=1024M
+Nov  6 20:29:32 nick kernel: [    3.210265] [drm] RAM width 64bits DDR4
+Nov  6 20:29:32 nick kernel: [    3.210340] [drm] amdgpu: 1024M of VRAM memory ready
+Nov  6 20:29:32 nick kernel: [    3.210344] [drm] amdgpu: 3072M of GTT memory ready.
+Nov  6 20:29:32 nick kernel: [    3.210346] [drm] GART: num cpu pages 262144, num gpu pages 262144
+Nov  6 20:29:32 nick kernel: [    3.210475] [drm] PCIE GART of 1024M enabled.
+Nov  6 20:29:32 nick kernel: [    3.210476] [drm] PTB located at 0x000000F400900000
+Nov  6 20:29:32 nick kernel: [    3.210611] audit: type=1400 audit(1636230572.131:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oosplash" pid=683 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.210639] audit: type=1400 audit(1636230572.131:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=678 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.210649] audit: type=1400 audit(1636230572.131:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=678 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.210992] audit: type=1400 audit(1636230572.131:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=681 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.210997] audit: type=1400 audit(1636230572.131:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=681 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.211000] audit: type=1400 audit(1636230572.131:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=681 comm="apparmor_parser"
+Nov  6 20:29:32 nick kernel: [    3.216673] [drm] Loading DMUB firmware via PSP: version=0x01010019
+Nov  6 20:29:32 nick kernel: [    3.217444] [drm] Found VCN firmware Version ENC: 1.14 DEC: 5 VEP: 0 Revision: 20
+Nov  6 20:29:32 nick kernel: [    3.217450] [drm] PSP loading VCN firmware
+Nov  6 20:29:32 nick kernel: [    3.942829] [drm] reserve 0x400000 from 0xf43f800000 for PSP TMR
+Nov  6 20:29:32 nick kernel: [    4.032062] amdgpu 0000:07:00.0: amdgpu: RAS: optional ras ta ucode is not available
+Nov  6 20:29:32 nick kernel: [    4.042080] amdgpu 0000:07:00.0: amdgpu: RAP: optional rap ta ucode is not available
+Nov  6 20:29:32 nick kernel: [    4.042084] amdgpu 0000:07:00.0: amdgpu: SECUREDISPLAY: securedisplay ta ucode is not available
+Nov  6 20:29:32 nick kernel: [    4.042358] amdgpu 0000:07:00.0: amdgpu: SMU is initialized successfully!
+Nov  6 20:29:32 nick kernel: [    4.043783] [drm] kiq ring mec 2 pipe 1 q 0
+Nov  6 20:29:32 nick kernel: [    4.044496] [drm] Display Core initialized with v3.2.132!
+Nov  6 20:29:32 nick kernel: [    4.045032] [drm] DMUB hardware initialized: version=0x01010019
+Nov  6 20:29:32 nick kernel: [    4.049813] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Nov  6 20:29:32 nick kernel: [    4.049818] Bluetooth: BNEP filters: protocol multicast
+Nov  6 20:29:32 nick kernel: [    4.049825] Bluetooth: BNEP socket layer initialized
+Nov  6 20:29:32 nick kernel: [    4.054238] NET: Registered protocol family 38
+Nov  6 20:29:32 nick kernel: [    4.070593] snd_hda_intel 0000:07:00.1: bound 0000:07:00.0 (ops amdgpu_dm_audio_component_bind_ops [amdgpu])
+Nov  6 20:29:33 nick kernel: [    4.151492] loop11: detected capacity change from 0 to 8
+Nov  6 20:29:33 nick kernel: [    4.159226] Generic FE-GE Realtek PHY r8169-0-200:00: attached PHY driver (mii_bus:phy_addr=r8169-0-200:00, irq=MAC)
+Nov  6 20:29:33 nick kernel: [    4.162544] [drm] DP Alt mode state on HPD: 1
+Nov  6 20:29:33 nick kernel: [    4.279296] [drm] DM_MST: Differing MST start on aconnector: 00000000132bdcba [id: 94]
+Nov  6 20:29:33 nick kernel: [    4.282640] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+Nov  6 20:29:33 nick kernel: [    4.282657] [drm] JPEG decode initialized successfully.
+Nov  6 20:29:33 nick kernel: [    4.283287] r8169 0000:02:00.0 enp2s0f0: Link is Down
+Nov  6 20:29:33 nick kernel: [    4.284788] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+Nov  6 20:29:33 nick kernel: [    4.284955] amdgpu: Virtual CRAT table created for GPU
+Nov  6 20:29:33 nick kernel: [    4.285040] amdgpu: Topology: Add dGPU node [0x1638:0x1002]
+Nov  6 20:29:33 nick kernel: [    4.285043] kfd kfd: amdgpu: added device 1002:1638
+Nov  6 20:29:33 nick kernel: [    4.285046] amdgpu 0000:07:00.0: amdgpu: SE 1, SH per SE 2, CU per SH 18, active_cu_number 28
+Nov  6 20:29:33 nick kernel: [    4.288591] [drm] fb mappable at 0x3F0CD2000
+Nov  6 20:29:33 nick kernel: [    4.288594] [drm] vram apper at 0x3F0000000
+Nov  6 20:29:33 nick kernel: [    4.288594] [drm] size 8294400
+Nov  6 20:29:33 nick kernel: [    4.288595] [drm] fb depth is 24
+Nov  6 20:29:33 nick kernel: [    4.288595] [drm]    pitch is 7680
+Nov  6 20:29:33 nick kernel: [    4.288683] fbcon: amdgpudrmfb (fb0) is primary device
+Nov  6 20:29:33 nick kernel: [    4.288755] Console: switching to colour frame buffer device 240x67
+Nov  6 20:29:33 nick kernel: [    4.288773] amdgpu 0000:07:00.0: [drm] fb0: amdgpudrmfb frame buffer device
+Nov  6 20:29:33 nick kernel: [    4.315325] Generic FE-GE Realtek PHY r8169-0-500:00: attached PHY driver (mii_bus:phy_addr=r8169-0-500:00, irq=MAC)
+Nov  6 20:29:33 nick kernel: [    4.323365] amdgpu 0000:07:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323371] amdgpu 0000:07:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323372] amdgpu 0000:07:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323372] amdgpu 0000:07:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323373] amdgpu 0000:07:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323374] amdgpu 0000:07:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323375] amdgpu 0000:07:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323375] amdgpu 0000:07:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323376] amdgpu 0000:07:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323377] amdgpu 0000:07:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+Nov  6 20:29:33 nick kernel: [    4.323378] amdgpu 0000:07:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+Nov  6 20:29:33 nick kernel: [    4.323379] amdgpu 0000:07:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+Nov  6 20:29:33 nick kernel: [    4.323379] amdgpu 0000:07:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+Nov  6 20:29:33 nick kernel: [    4.323380] amdgpu 0000:07:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+Nov  6 20:29:33 nick kernel: [    4.323381] amdgpu 0000:07:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+Nov  6 20:29:33 nick kernel: [    4.349134] [drm] Initialized amdgpu 3.41.0 20150101 for 0000:07:00.0 on minor 0
+Nov  6 20:29:33 nick kernel: [    4.523386] r8169 0000:05:00.0 enp5s0: Link is Down
+Nov  6 20:29:34 nick kernel: [    5.699675] rfkill: input handler disabled
+Nov  6 20:29:36 nick kernel: [    8.014475] usb 5-3: reset full-speed USB device number 3 using xhci_hcd
+Nov  6 20:29:37 nick kernel: [    8.788913] wlp3s0: authenticate with dc:d9:ae:57:ba:bd
+Nov  6 20:29:37 nick kernel: [    8.982464] wlp3s0: send auth to dc:d9:ae:57:ba:bd (try 1/3)
+Nov  6 20:29:37 nick kernel: [    8.983372] wlp3s0: authenticated
+Nov  6 20:29:37 nick kernel: [    8.987172] wlp3s0: associate with dc:d9:ae:57:ba:bd (try 1/3)
+Nov  6 20:29:37 nick kernel: [    8.988159] wlp3s0: RX AssocResp from dc:d9:ae:57:ba:bd (capab=0x1011 status=0 aid=1)
+Nov  6 20:29:38 nick kernel: [    9.099555] wlp3s0: associated
+Nov  6 20:29:38 nick kernel: [    9.099704] wlp3s0: Limiting TX power to 30 (30 - 0) dBm as advertised by dc:d9:ae:57:ba:bd
+Nov  6 20:29:38 nick kernel: [    9.191681] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+Nov  6 20:29:39 nick kernel: [   10.562456] kauditd_printk_skb: 31 callbacks suppressed
+Nov  6 20:29:39 nick kernel: [   10.562459] audit: type=1400 audit(1636230579.483:42): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=1616 comm="cups-browsed" capability=23  capname="sys_nice"
+Nov  6 20:29:39 nick kernel: [   11.001935] audit: type=1400 audit(1636230579.923:43): apparmor="DENIED" operation="open" profile="/usr/sbin/cupsd" name="/proc/sys/kernel/osrelease" pid=831 comm="cupsd" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov  6 20:29:39 nick kernel: [   11.002009] audit: type=1400 audit(1636230579.923:44): apparmor="DENIED" operation="open" profile="/usr/sbin/cupsd" name="/proc/1/environ" pid=831 comm="cupsd" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov  6 20:29:39 nick kernel: [   11.002021] audit: type=1400 audit(1636230579.923:45): apparmor="DENIED" operation="open" profile="/usr/sbin/cupsd" name="/proc/cmdline" pid=831 comm="cupsd" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov  6 20:29:41 nick kernel: [   12.332245] loop11: detected capacity change from 0 to 104360
+Nov  6 20:29:41 nick kernel: [   12.593781] audit: type=1400 audit(1636230581.515:46): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/11993/usr/lib/snapd/snap-confine" pid=1815 comm="apparmor_parser"
+Nov  6 20:29:41 nick kernel: [   12.593786] audit: type=1400 audit(1636230581.515:47): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/11993/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=1815 comm="apparmor_parser"
+Nov  6 20:29:41 nick kernel: [   12.800896] audit: type=1400 audit(1636230581.723:48): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.hook.configure" pid=1818 comm="apparmor_parser"
+Nov  6 20:29:42 nick kernel: [   13.260496] audit: type=1400 audit(1636230582.183:49): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software-local-file" pid=1821 comm="apparmor_parser"
+Nov  6 20:29:42 nick kernel: [   13.261842] audit: type=1400 audit(1636230582.183:50): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software" pid=1820 comm="apparmor_parser"
+Nov  6 20:29:42 nick kernel: [   13.287568] audit: type=1400 audit(1636230582.211:51): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.snap-store" pid=1819 comm="apparmor_parser"
+Nov  6 20:29:45 nick kernel: [   16.567963] loop12: detected capacity change from 0 to 448512
+Nov  6 20:29:52 nick kernel: [   23.332912] Bluetooth: RFCOMM TTY layer initialized
+Nov  6 20:29:52 nick kernel: [   23.332922] Bluetooth: RFCOMM socket layer initialized
+Nov  6 20:29:52 nick kernel: [   23.332935] Bluetooth: RFCOMM ver 1.11
+Nov  6 20:29:52 nick kernel: [   23.545898] rfkill: input handler enabled
+Nov  6 20:29:53 nick kernel: [   24.842777] rfkill: input handler disabled
+Nov  6 20:29:53 nick kernel: [   24.881623] kauditd_printk_skb: 3 callbacks suppressed
+Nov  6 20:29:53 nick kernel: [   24.881626] audit: type=1400 audit(1636230593.803:55): apparmor="DENIED" operation="capable" profile="/usr/lib/snapd/snap-confine" pid=2429 comm="snap-confine" capability=39  capname="bpf"
+Nov  6 20:29:53 nick kernel: [   24.881673] audit: type=1400 audit(1636230593.803:56): apparmor="DENIED" operation="capable" profile="/usr/lib/snapd/snap-confine" pid=2429 comm="snap-confine" capability=12  capname="net_admin"
+Nov  6 20:29:53 nick kernel: [   24.881695] audit: type=1400 audit(1636230593.803:57): apparmor="DENIED" operation="capable" profile="/usr/lib/snapd/snap-confine" pid=2429 comm="snap-confine" capability=38  capname="perfmon"
+Nov  6 20:29:53 nick kernel: [   24.891057] audit: type=1400 audit(1636230593.811:58): apparmor="DENIED" operation="capable" profile="/usr/lib/snapd/snap-confine" pid=2429 comm="snap-confine" capability=4  capname="fsetid"
+Nov  6 20:29:54 nick kernel: [   25.439681] input: PXC 550 (AVRCP) as /devices/virtual/input/input18
+Nov  6 20:30:12 nick kernel: [   43.678413] audit: type=1400 audit(1636230612.599:59): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/11993/usr/lib/snapd/snap-confine" pid=2891 comm="apparmor_parser"
+Nov  6 20:30:12 nick kernel: [   43.678420] audit: type=1400 audit(1636230612.599:60): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/core/11993/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2891 comm="apparmor_parser"
+Nov  6 20:30:12 nick kernel: [   43.881561] audit: type=1400 audit(1636230612.803:61): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.hook.configure" pid=2894 comm="apparmor_parser"
+Nov  6 20:30:13 nick kernel: [   44.296530] audit: type=1400 audit(1636230613.219:62): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software-local-file" pid=2897 comm="apparmor_parser"
+Nov  6 20:30:13 nick kernel: [   44.300037] audit: type=1400 audit(1636230613.223:63): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.ubuntu-software" pid=2896 comm="apparmor_parser"
+Nov  6 20:30:13 nick kernel: [   44.304110] audit: type=1400 audit(1636230613.227:64): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.snap-store.snap-store" pid=2895 comm="apparmor_parser"
+Nov  6 20:30:13 nick kernel: [   44.443990] audit: type=1400 audit(1636230613.367:65): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap-update-ns.snap-store" pid=2893 comm="apparmor_parser"
+Nov  6 20:30:13 nick kernel: [   44.448880] audit: type=1400 audit(1636230613.371:66): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.core" pid=2899 comm="apparmor_parser"
+Nov  6 20:30:13 nick kernel: [   44.450991] audit: type=1400 audit(1636230613.371:67): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.core.hook.configure" pid=2900 comm="apparmor_parser"
+Nov  6 20:54:54 nick kernel: [ 1513.863881] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.863918] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.863947] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.863976] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864004] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864033] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864061] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864089] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864117] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864145] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864173] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864201] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864229] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864257] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864285] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864313] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864341] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864369] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864398] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864426] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864454] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864482] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864510] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864539] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864568] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864596] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864625] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864653] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864681] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864709] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864740] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:54 nick kernel: [ 1513.864768] i2c i2c-2: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414330] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414384] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414424] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414461] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414498] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414534] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414570] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414606] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414642] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414679] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414715] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414753] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414791] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414829] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414865] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414901] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414937] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.414974] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415073] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415123] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415160] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415209] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415251] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415287] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415325] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415365] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415412] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415453] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415503] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415546] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415585] i2c i2c-3: Failed! (ff)
+Nov  6 20:54:55 nick kernel: [ 1515.415620] i2c i2c-3: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.867911] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.867939] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.867953] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.867966] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.867978] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.867991] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868003] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868016] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868028] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868041] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868053] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868065] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868077] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868090] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868102] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868115] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868127] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868139] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868152] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868164] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868177] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868189] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868202] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868214] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868228] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868241] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868253] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868266] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868278] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868290] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868305] i2c i2c-4: Failed! (ff)
+Nov  6 20:55:00 nick kernel: [ 1519.868318] i2c i2c-4: Failed! (ff)
+Nov  6 21:10:30 nick kernel: [ 2443.336254] ------------[ cut here ]------------
+Nov  6 21:10:30 nick kernel: [ 2443.336259] failed to write to DBI register, addr=0x0719
+Nov  6 21:10:30 nick kernel: [ 2443.336283] WARNING: CPU: 5 PID: 5157 at /home/nick/Downloads/rtw89/pci.c:1431 rtw89_dbi_write8+0xf4/0x100 [rtw89pci]
+Nov  6 21:10:30 nick kernel: [ 2443.336296] Modules linked in: cpuid rfcomm ccm cmac algif_hash algif_skcipher af_alg bnep intel_rapl_msr intel_rapl_common edac_mce_amd amdgpu rtw89pci(OE) rtw89core(OE) snd_ctl_led snd_soc_dmic kvm_amd snd_acp3x_pdm_dma snd_acp3x_rn snd_soc_core snd_hda_codec_realtek snd_compress nls_iso8859_1 snd_hda_codec_generic kvm ac97_bus snd_hda_codec_hdmi snd_pcm_dmaengine iommu_v2 gpu_sched uvcvideo snd_hda_intel mac80211 drm_ttm_helper crct10dif_pclmul snd_intel_dspcfg snd_intel_sdw_acpi ghash_clmulni_intel ttm videobuf2_vmalloc videobuf2_memops videobuf2_v4l2 aesni_intel snd_hda_codec videobuf2_common crypto_simd input_leds videodev snd_seq_midi joydev cryptd snd_hda_core drm_kms_helper rapl serio_raw efi_pstore wmi_bmof thinkpad_acpi snd_hwdep mc snd_seq_midi_event cec cfg80211 snd_rawmidi snd_pcm rc_core nvram i2c_algo_bit platform_profile fb_sys_fops ledtrig_audio syscopyarea sysfillrect snd_seq sysimgblt snd_rn_pci_acp3x snd_pci_acp3x ccp snd_seq_device libarc4 snd_timer ucsi_acpi
+Nov  6 21:10:30 nick kernel: [ 2443.336370]  typec_ucsi btusb typec btrtl snd btbcm btintel soundcore bluetooth ecdh_generic ecc mac_hid sch_fq_codel msr parport_pc ppdev lp drm parport ip_tables x_tables autofs4 crc32_pclmul sdhci_pci nvme r8169 cqhci xhci_pci psmouse i2c_piix4 xhci_pci_renesas sdhci nvme_core realtek wmi video i2c_scmi
+Nov  6 21:10:30 nick kernel: [ 2443.336402] CPU: 5 PID: 5157 Comm: kworker/u32:0 Tainted: G           OE     5.13.0-20-generic #20-Ubuntu
+Nov  6 21:10:30 nick kernel: [ 2443.336406] Hardware name: LENOVO 20XK0019US/20XK0019US, BIOS R1MET42W (1.12 ) 09/29/2021
+Nov  6 21:10:30 nick kernel: [ 2443.336409] Workqueue: phy0 rtw89_track_work [rtw89core]
+Nov  6 21:10:30 nick kernel: [ 2443.336425] RIP: 0010:rtw89_dbi_write8+0xf4/0x100 [rtw89pci]
+Nov  6 21:10:30 nick kernel: [ 2443.336431] Code: 00 4c 89 e7 48 8b 40 38 e8 39 df d3 f3 84 c0 75 09 31 c0 5b 41 5c 41 5d 5d c3 41 0f b7 f5 48 c7 c7 b0 a4 ec c0 e8 7b 8e 90 f3 <0f> 0b b8 92 ff ff ff eb e0 0f 1f 00 0f 1f 44 00 00 55 48 89 e5 41
